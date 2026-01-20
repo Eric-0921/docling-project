@@ -1,0 +1,35 @@
+# SMB100A Project Rules
+
+## Core Principles
+1. **Always use PyVISA** for instrument control. Do not use raw sockets or serial libraries unless explicitly requested.
+2. **Protect SCPI Commands**: When referencing commands, use the exact SCPI syntax (e.g., `:SOURce:FREQuency:CW`). Do NOT translate these commands.
+3. **Verify Connectivity**: Before sending control commands, always include a connection check (e.g., `*IDN?`).
+
+## Knowledge Base Usage
+- This project uses a local knowledge base generated from the SMB100A Operating Manual.
+- Refer to `equipment_doc/` for processed documentation.
+- When searching for commands, look for the "SCPI Command" and "Parameter" sections in the documentation.
+
+## Code Generation Guidelines
+- **Python**: Use `pyvisa` and `pyserial`.
+- **Error Handling**: Implement try-except blocks for VISA timeouts and resource errors.
+- **Units**: Always specify units (Hz, dBm, etc.) in comments or variable names.
+
+## Example Pattern
+```python
+import pyvisa
+
+rm = pyvisa.ResourceManager()
+# Change address as needed
+inst = rm.open_resource('TCPIP::192.168.1.10::INSTR')
+
+# Check ID
+print(inst.query('*IDN?'))
+
+# Set Frequency (Example)
+# Command: :SOURce:FREQuency:CW
+inst.write(':FREQ 100MHz')
+
+# Check Errors
+print(inst.query('SYST:ERR?'))
+```
