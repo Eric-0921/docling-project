@@ -60,14 +60,22 @@ This project uses a suite of SOTA models hosted on the [Docling Hugging Face](ht
 
 ## 📂 Project Structure
 
-- `convert_pdf.py`: Main conversion script with GPU batching optimizations.
-- `postprocess_kb.py`: Handles cleaning, de-noising, and SCPI structure extraction.
-- `.cursorrules`: Rules for AI IDEs (Cursor) to correctly interpret the codebase.
-- `.agent/skills/`: Antigravity capabilities definition.
+- `input/`: Raw PDF files (e.g., SMB100A manual).
+- `output/`: Conversion results (Markdown, JSON).
+- `scripts/`: Python scripts (`convert_pdf.py`, `postprocess_kb.py`).
+- `docs/`: Project documentation.
+- `.agent/skills/smb100a/`: Antigravity Skill definition.
 
 ## ⚡ Usage
 
+### Convert PDF
+Run the conversion script from the project root:
+
 ```bash
-# Convert a PDF with GPU acceleration
-python convert_pdf.py --input manual.pdf --output result/
+python scripts/convert_pdf.py --input input/SMB100A_OperatingManual_en_23.pdf --output output/
+```
+
+### Post-process (Structure & Clean)
+```bash
+python scripts/postprocess_kb.py output/SMB100A_OperatingManual_en_23.json
 ```

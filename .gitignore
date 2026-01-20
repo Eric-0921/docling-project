@@ -1,0 +1,17 @@
+# Sensitive Keys
+api_keys.yml
+
+# Output directory
+output/
+
+# System files
+.DS_Store
+__pycache__/
+*.pyc
+
+# IDEs
+.idea/
+.vscode/
+
+# Environment
+environment.yml

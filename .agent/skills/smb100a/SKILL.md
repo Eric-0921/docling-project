@@ -16,10 +16,10 @@ This skill allows you to convert complex PDF documents (especially technical man
 
 ## Usage
 
-Run the conversion script located at `convert_pdf.py`.
+Run the conversion script located at `scripts/convert_pdf.py`.
 
 ```bash
-python convert_pdf.py
+python scripts/convert_pdf.py --input input/manual.pdf --output output/
 ```
 
 ## Configuration
