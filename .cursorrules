@@ -6,9 +6,11 @@
 3. **Verify Connectivity**: Before sending control commands, always include a connection check (e.g., `*IDN?`).
 
 ## Knowledge Base Usage
-- This project uses a local knowledge base generated from the SMB100A Operating Manual.
-- Refer to `equipment_doc/` for processed documentation.
-- When searching for commands, look for the "SCPI Command" and "Parameter" sections in the documentation.
+- This project uses a structured knowledge base generated from the SMB100A Operating Manual.
+- **Primary Source**: `output/` (Look for the latest `run_*` folder).
+- **SCPI Database**: `output/.../knowledge_base/scpi_database.json` contains machine-readable command definitions.
+- **Reference Docs**: `docs/` contains project architectural documentation.
+- When searching for commands, prefer the structured JSON or the specific chapter Markdown (e.g., `06_Remote_Control.md`).
 
 ## Code Generation Guidelines
 - **Python**: Use `pyvisa` and `pyserial`.

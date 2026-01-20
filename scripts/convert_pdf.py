@@ -5,6 +5,7 @@ import time
 import json
 import threading
 import psutil
+import sys
 from pathlib import Path
 from datetime import datetime
 import logging
@@ -126,7 +127,7 @@ def main():
 
     # Docling Configuration
     settings.perf.page_batch_size = 16
-    settings.perf.do_code_formula = True # Support for CodeFormula
+    # settings.perf.do_code_formula = True # Removed: Not supported in this version of Docling settings
 
     accelerator_options = AcceleratorOptions(device=AcceleratorDevice.CUDA)
     pipeline_options = ThreadedPdfPipelineOptions(
@@ -141,8 +142,9 @@ def main():
     pipeline_options.table_structure_options.do_cell_matching = True
     pipeline_options.ocr_options = RapidOcrOptions(backend="torch")
 
+    pipeline_options.accelerator_options = accelerator_options
+
     converter = DocumentConverter(
-        accelerator_options=accelerator_options,
         format_options={InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)}
     )
 
@@ -162,7 +164,8 @@ def main():
             conversion_result = {}
 
             def run_conversion():
-                res = converter.convert(input_path, max_num_pages=args.max_pages)
+                max_pages = args.max_pages if args.max_pages else sys.maxsize
+                res = converter.convert(input_path, max_num_pages=max_pages)
                 conversion_result['doc'] = res
                 conversion_done.set()
 
