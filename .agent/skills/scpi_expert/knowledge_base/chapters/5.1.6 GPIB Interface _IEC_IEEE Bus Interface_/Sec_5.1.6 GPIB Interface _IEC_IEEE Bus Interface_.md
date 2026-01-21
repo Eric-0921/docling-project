@@ -1,0 +1,3 @@
+# 5.1.6 GPIB Interface (IEC/IEEE Bus Interface)
+To be able to control the instrument via the GPIB bus, the instrument and the controller must be linked by a GPIB bus cable. A GPIB bus card, the card drivers and the program libraries for the programming language used must be provided in the controller. The controller must address the instrument with the GPIB bus address (see Chapter 5.1.6.2, "GPIB Instrument Address", on page 248).
+

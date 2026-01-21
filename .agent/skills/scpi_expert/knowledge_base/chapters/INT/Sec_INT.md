@@ -1,0 +1,3 @@
+# INT
+Uses the internally generated signal for modulation. To configure the frequency, use the commands of the Chapter 6.13.6, "SOURce:LFOutput Subsystem", on page 354 subsystem.
+

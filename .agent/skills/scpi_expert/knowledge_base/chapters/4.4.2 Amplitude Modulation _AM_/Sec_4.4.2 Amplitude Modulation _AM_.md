@@ -1,0 +1,9 @@
+# 4.4.2 Amplitude Modulation (AM)
+An internal and/or external source can be selected for amplitude modulation. The LF modulation generator is available as the internal source.
+
+Two-tone AM is possible by simultaneously switching on the external and internal source.
+
+The [MOD EXT] input connector for external feed of analog modulation signals is at the front of the instrument. The coupling mode of the input (AC or DC) can be selected.
+
+The AM modulation depth is limited by the maximum peak envelope power (PEP).
+

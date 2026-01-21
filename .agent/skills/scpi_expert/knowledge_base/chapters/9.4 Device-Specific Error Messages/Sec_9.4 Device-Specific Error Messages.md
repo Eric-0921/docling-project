@@ -1,0 +1,15 @@
+# 9.4 Device-Specific Error Messages
+The following table contains all error messages specific for the instrument in alphabetical order, as well as an explanation of the error situation. The positive error codes mark the errors specific of the instrument.
+
+The device-specific error messages set bit 3 in the ESR register.
+
+The index provides a list of the error messages sorted according to their error codes.
+
+Operating Manual 1407.0806.32 ─ 23
+
+503
+
+R&S ® SMB100A
+
+Status Information, Error Messages and Troubleshooting
+

@@ -1,0 +1,9 @@
+# 3.1.13 Default Settings
+When the instrument is switched on, it is not the preset state that is active, but rather the instrument state that was set before the instrument was switched off. It is also recomended that you use the [PRESET] key to return the instrument to its defined preset state every time a new configuration is required or the current setup is not anymore relevant.
+
+The R&S SMB offers a two-stage preset concept:
+
+Preset the instrument to a predefined state The [PRESET] key calls up a defined instrument setup. All parameters and switching states are preset (also those of inactive operating modes). The default instrument settings provide a reproducible initial basis for all other settings. However, functions that concern the integration of the instrument into a measurement setup are not changed, e.g. GPIB bus address or reference oscillator source settings.
+
+Preset the instrument to its factory settings The instrument can also be forced to load its default factory settings. To access the corresponding dialog box, press the [SETUP] key and select the "Factory Preset". For more information and an overview of the settings affected by the factory preset function, see Chapter 4.2.3.16, "Factory Preset", on page 122.
+

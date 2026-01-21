@@ -1,0 +1,27 @@
+# 4.2.3.2 Software / Options
+The "Software/Options" dialog shows the firmware version of the instrument software and all installed hardware and software options.
+
+![Picture](#/pictures/132)
+
+Software options purchased at a later stage can be activated with a keycode. The activation code is supplied with the software option.
+
+How to install options is described in chapter 4 "Software Update / Installing Options" of the service manual.
+
+The installation of hardware options purchased at a later stage is also described in the service manual. Most hardware options need to be installed at an authorized Rohde&Schwarz service shop.
+
+To access the "Software/Options" dialog, select "System" and press the [SETUP] or [MENU] key.
+
+The menu is divided into the following sections:
+
+"Firmware"
+
+"Hardware Options"
+
+Operating Manual 1407.0806.32 ─ 23
+
+98
+
+R&S ® SMB100A
+
+Instrument Function
+

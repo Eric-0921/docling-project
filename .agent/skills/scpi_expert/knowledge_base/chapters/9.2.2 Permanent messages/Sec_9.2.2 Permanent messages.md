@@ -1,0 +1,9 @@
+# 9.2.2 Permanent messages
+Permanent messages are displayed if an error occurs that impairs further instrument operation, e.g. a hardware fault. The error signaled by a permanent message must be eliminated before correct instrument operation can be ensured.
+
+The message is displayed until the error is eliminated. It covers the status display in the info line. After error elimination, the message automatically disappears and is also recorded in the history.
+
+SCPI command:
+
+:SYSTem:ERRor:STATic?
+

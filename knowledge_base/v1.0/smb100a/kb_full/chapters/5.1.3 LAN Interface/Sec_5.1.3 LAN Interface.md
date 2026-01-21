@@ -1,0 +1,3 @@
+# 5.1.3 LAN Interface
+To be integrated in a LAN, the instrument is equipped with a LAN interface, consisting of a connector, a network interface card and protocols. For remote control via a network, the PC and the instrument must be connected via the LAN interface to a common network with TCP/IP network protocol. They are connected using a commercial RJ45 cable. The TCP/IP network protocol and the associated network services are
+

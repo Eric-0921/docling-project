@@ -1,0 +1,23 @@
+# 5.1.1 VISA Libraries
+VISA is a standardized software interface library providing input and output functions to communicate with instruments. Thus, you can configure the interface and must not adjust the application program to the used interface. The I/O channel (LAN or TCP/IP, USB, GPIB,...) is selected at initialization time with the channel-specific address string ("VISA resource string"), or by a defined VISA alias (short name). See also Chapter 5.1, "Remote Control Interfaces and Protocols", on page 240 for an overview.
+
+Instrument access via VXI-11 or HiSLIP protocols is achieved from high level programming platforms using VISA as an intermediate abstraction layer. VISA encapsulates the low-level VXI or GPIB function calls and thus makes the transport interface transparent for the user.
+
+A VISA installation is a prerequisite for remote control using the following interfaces:
+
+LAN Interface using Chapter 5.1.3, "LAN Interface", on page 242
+
+LAN interface using Chapter 5.1.3.2, "VXI-11 protocol", on page 244
+
+Chapter 5.1.4, "USB Interface", on page 245
+
+Chapter 5.1.6, "GPIB Interface (IEC/IEEE Bus Interface)", on page 246
+
+Chapter 5.1.5, "Serial Interface", on page 246
+
+Instrument access via the LAN socket protocol or GPIB connections can be operated both, with or without the VISA library.
+
+See also Chapter 5.1.3.3, "Socket communication", on page 244 and Chapter 5.1.6, "GPIB Interface (IEC/IEEE Bus Interface)", on page 246.
+
+For more information about VISA, refer to the user documentation.
+

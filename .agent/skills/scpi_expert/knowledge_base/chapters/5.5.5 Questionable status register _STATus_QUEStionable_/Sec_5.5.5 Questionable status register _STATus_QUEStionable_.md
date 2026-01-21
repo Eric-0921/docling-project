@@ -1,0 +1,18 @@
+# 5.5.5 Questionable status register (STATus:QUEStionable)
+This register contains information on questionable instrument states. Such states may occur when the instrument is not operated in compliance with its specifications.
+
+To read the register, use the query commands STAT:QUEST:COND? or STAT:QUEST[:EVEN]? .
+
+Operating Manual 1407.0806.32 ─ 23
+
+278
+
+R&S ® SMB100A
+
+Remote Control Basics
+
+Status reporting system
+
+| Bit No.   | Meaning   |
+|-----------|-----------|
+| 0-15      | Not used  |

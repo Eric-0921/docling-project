@@ -1,0 +1,10 @@
+# 5.3.3.6 Block data
+Block data is a format which is suitable for the transmission of large amounts of data. For example, a command using a block data parameter has the following structure:
+
+FORMat::READings::DATA  # 45 1 6 8 x x x x x x x
+
+
+The ASCII character # introduces the data block. The next number indicates how many of the following digits describe the length of the data block. In the example, the 4 following digits indicate the length to be 5168 bytes. The data bytes follow. During the transmission of these data bytes all end or other control signs are ignored until all bytes are transmitted.
+
+#0 specifies a data block of indefinite length. The use of the indefinite format requires a NL^END message to terminate the data block. This format is useful when the length of the transmission is not known or if speed or other considerations prevent segmentation of the data into blocks of definite length.
+

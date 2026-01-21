@@ -1,17 +1,6 @@
-# Sensitive Keys
-api_keys.yml
-
-# Output directory
-output/
-
-# System files
-.DS_Store
+experimental_data/
 __pycache__/
 *.pyc
-
-# IDEs
-.idea/
-.vscode/
-
-# Environment
-environment.yml
+.env
+.DS_Store
+docling_conversion.log

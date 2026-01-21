@@ -1,0 +1,25 @@
+# 4.4.5 Pulse Modulation (PM)
+The available options for performing pulse modulation include:
+
+option Pulse Modulator (R&S SMB-K22)
+
+Operating Manual 1407.0806.32 ─ 23
+
+214
+
+R&S ® SMB100A
+
+Instrument Function
+
+Modulation
+
+![Picture](#/pictures/268)
+
+option Pulse Generator (R&S SMB-K23) , comprises "Single" and "Double" pulse generation
+
+option Pulse Train (R&S SMB-K27), enables generation of pulse trains.
+
+As modulation signal, you can either use the signal of the internal pulse generator or an externally supplied signal. In case of external source, the external signal is input via the [PULSE EXT] connector at the rear of the instrument. In case of internal source, this connector can be used as external trigger or gate signal input for internal pulse modulation. The polarity and input impedance of the connector can be selected.
+
+The pulse signal is output at the [PULSE VIDEO] connector at the rear of the instrument.
+

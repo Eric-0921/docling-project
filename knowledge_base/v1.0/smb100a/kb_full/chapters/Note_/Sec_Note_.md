@@ -1,0 +1,5 @@
+# Note:
+If signal source "Internal" is set, the instrument performs the analog modulations (AM/FM/ ɸ M/PM) with this freqeuncy.
+
+In sweep mode ( LFO:FREQ:MODE SWEep ), the frequency is coupled with the sweep frequency.
+

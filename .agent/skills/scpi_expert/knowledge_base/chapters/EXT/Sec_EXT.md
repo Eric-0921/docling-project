@@ -1,0 +1,15 @@
+# EXT
+Uses an externally applied modulation signal. The external signal is input at the [MOD EXT] connector.
+
+SOURce Subsystem
+
+Operating Manual 1407.0806.32 ─ 23
+
+345
+
+R&S ® SMB100A
+
+Remote Control Commands
+
+SOURce Subsystem
+

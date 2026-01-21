@@ -1,0 +1,19 @@
+# 3.1.16.2 Remote Access via a VNC Client Software
+A VNC client software is an application which can be used to access and control the instrument from a remote computer via LAN.
+
+The following description explains how to establish the remote access, represented by means of the client software Ultr@VNC. The software is included in Linux/Unix operating system, but it is also available as a free-of-charge download on the Internet http:// www.uvnc.com/download/index.html. Thus, it is also available for remote computers with Windows operating system.
+
+The GUI appearance of Ultr@VNC may vary if you use a later release. Also, similar programs may deviate in some details, but the basic procedure is the same.
+
+Operating Manual 1407.0806.32 ─ 23
+
+34
+
+R&S ® SMB100A
+
+Getting Started
+
+Preparing for Use
+
+![Picture](#/pictures/20)
+

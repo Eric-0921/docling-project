@@ -1,0 +1,7 @@
+# 4.5.4.2 Pulse Train Generation
+In "Pulse Train" mode, the instrument provides the associated parameters for configuring a user-defined pulse train signal.
+
+A pulse train is a sequence of pulses with user-defined on and off times. The "ON Time / OFF Time" value pairs are defined in a pulse train table and can be stored in a file. The currently loaded file is displayed in the dialog. You can export an internally created pulse train list as well as import an externally created one.
+
+In remote control mode, you must first create a data file, before you switch to pulse train mode. Otherwise you get the error message "No current list" in the "Info" line.
+

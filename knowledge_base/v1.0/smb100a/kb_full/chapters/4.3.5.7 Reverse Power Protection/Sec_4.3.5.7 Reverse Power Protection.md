@@ -1,0 +1,9 @@
+# 4.3.5.7 Reverse Power Protection
+The reverse power protection prevents against overload by an external signal applied to the RF output of the R&S SMB.
+
+![Picture](#/pictures/220)
+
+The R&S SMB equipped with frequency options up to 6 GHz includes a reverse power protection as standard. For instruments equipped with frequency option R&S SMBB112 or R&S SMB-B112L a reverse power protection option R&S SMB-B30 is available. Refer to the data sheet for additional information and the respective option.
+
+The reverse power protection is tripped when the power of the external signal becomes too high. A relay opens and interrupts the internal connection to the RF output. This condition is indicated in the display header by the "OVERLOAD" status message.
+

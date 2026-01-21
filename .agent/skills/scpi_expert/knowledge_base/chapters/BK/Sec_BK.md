@@ -1,0 +1,3 @@
+# BK
+The area identification (Bereichskennung) is generated in addition (60% AM). This code is used to identify the geographical region covered by the radio station. The specific code is selected below.
+

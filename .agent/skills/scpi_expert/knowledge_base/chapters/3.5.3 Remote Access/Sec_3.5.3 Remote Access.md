@@ -1,0 +1,31 @@
+# 3.5.3 Remote Access
+Remote access is the operating of the instrument from a remote computer. Both the R&S SMB and the computer are connected in a LAN.
+
+Remote access in contrast to remote control does not use remote-control commands but a separate software which is installed on the remote computer. After its start, the software simulates the user interface of the instrument. The instrument can thus be operated from the remote computer as on the unit itself. The individual functions are operated using the mouse and keyboard. Specific instrument functions can be execu-
+
+Instrument Control
+
+Operating Manual 1407.0806.32 ─ 23
+
+92
+
+R&S ® SMB100A
+
+Getting Started
+
+Instrument Control
+
+ted using specific key combinations on the keyboard or a front panel key emulation that can be operated with the mouse.
+
+This way of operation and the instructions how to set up a connection for remote access are described in Chapter 3.1.16, "Remote Access via an External Controller", on page 32.
+
+Operating Manual 1407.0806.32 ─ 23
+
+93
+
+R&S ® SMB100A
+
+Instrument Function
+
+Overview of Instrument Functions
+
