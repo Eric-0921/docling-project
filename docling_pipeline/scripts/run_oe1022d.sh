@@ -1,43 +1,56 @@
 #!/bin/bash
 set -e
 
+# OE1022D Lock-in Amplifier PDF Conversion Script
+# Converts pages 62-82 (ASCII command reference) as prototype
+
 # Configuration
-INPUT_PDF="oe1022d-lockin.pdf"
-CONFIG_FILE="docling_pipeline/config/oe1022d.yaml"
-OUTPUT_DIR="knowledge_base/oe1022d"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(cd "$SCRIPT_DIR/../.." && pwd)"
+INPUT_PDF="$PROJECT_DIR/oe1022d-lockin.pdf"
+OUTPUT_DIR="$PROJECT_DIR/knowledge_base/oe1022d"
+PAGES="${1:-62-82}"  # Default to prototype pages, can be overridden
 
-echo "Starting OE1022D Pipeline..."
+echo "╔═══════════════════════════════════════════════╗"
+echo "║  OE1022D Lock-in Amplifier PDF Conversion     ║"
+echo "╠═══════════════════════════════════════════════╣"
+echo "║  Input:  $INPUT_PDF"
+echo "║  Output: $OUTPUT_DIR"
+echo "║  Pages:  $PAGES"
+echo "╚═══════════════════════════════════════════════╝"
+echo ""
 
-# 1. Convert PDF (If needed, or use existing JSON if comfortable)
-# For now, we assume we might want to skip conversion if JSON exists to save time during dev
-# echo "Converting PDF..."
-# python docling_pipeline/scripts/convert_pdf.py --input "$INPUT_PDF" --output "$OUTPUT_DIR"
-
-# 2. Build Knowledge Base
-echo "Building Knowledge Base..."
-# Find the latest run in the output directory if not specified
-# This logic might need improvement to pick the RIGHT json. 
-# For now, let's assume the user passes the JSON path or we pick the latest.
-# But convert_pdf outputs to 'output/<run_id>/raw/'. 
-# This script is a bit of a wrapper.
-
-# Simpler approach: User runs convert_pdf first, then this script points to the JSON?
-# Or this script runs everything.
-
-# Let's run builder on a specific JSON for now, or let arg parsing handle it.
-# Actually, let's make this script accept the JSON input.
-
-if [ -z "$1" ]; then
-    echo "Usage: ./run_oe1022d.sh <path_to_docling_json>"
-    echo "Example: ./run_oe1022d.sh prototype_output/run_2024.../raw/oe1022d-lockin.json"
+# Check input file exists
+if [ ! -f "$INPUT_PDF" ]; then
+    echo "❌ Error: Input file not found: $INPUT_PDF"
     exit 1
 fi
 
-JSON_PATH=$1
+# Activate conda environment
+echo "🔧 Activating conda environment..."
+eval "$(conda shell.bash hook)"
+conda activate doclingprj1
 
-python docling_pipeline/scripts/knowledge_builder_v3.py \
-    --input "$JSON_PATH" \
+# Run conversion
+echo "🚀 Starting conversion..."
+echo ""
+echo "💡 TIP: Monitor status in another terminal with:"
+echo "   watch -n5 'cat $OUTPUT_DIR/run_*/status.json 2>/dev/null | jq . || echo Waiting...'"
+echo ""
+
+cd "$PROJECT_DIR"
+python docling_pipeline/scripts/convert_pdf.py \
+    --input "$INPUT_PDF" \
     --output "$OUTPUT_DIR" \
-    --config "$CONFIG_FILE"
+    --pages "$PAGES"
 
-echo "Done. Knowledge Base in $OUTPUT_DIR"
+# Check result
+LATEST_RUN=$(ls -td "$OUTPUT_DIR"/run_* 2>/dev/null | head -1)
+if [ -n "$LATEST_RUN" ] && [ -f "$LATEST_RUN/status.json" ]; then
+    echo ""
+    echo "📊 Final Status:"
+    cat "$LATEST_RUN/status.json" | python -m json.tool
+fi
+
+echo ""
+echo "✅ Done!"
