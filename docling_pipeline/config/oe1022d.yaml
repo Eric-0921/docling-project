@@ -1,0 +1,11 @@
+device_name: "OE1022D"
+# OE1022D ASCII: Starts with 3+ uppercase letters, optional space and more uppercase/digits.
+# Excluding common English words requires context, but this is a starting point.
+command_pattern: "^[A-Z]{3,}(?: [A-Z0-9]+)?.*$"
+subheader_keywords:
+  - "description"
+  - "command"
+  - "parameter"
+  - "syntax"
+  - "remarks"
+  - "default"

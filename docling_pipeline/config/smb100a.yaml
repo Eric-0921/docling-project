@@ -1,0 +1,13 @@
+device_name: "SMB100A"
+# Standard SCPI: Starts with * OR contains a colon hierarchy (e.g. :SOURce:FREQ)
+command_pattern: "^(\*[a-zA-Z0-9]+.*)|(:?[a-zA-Z0-9_]+:[a-zA-Z0-9_]+.*)$"
+subheader_keywords:
+  - "parameters"
+  - "example"
+  - "usage"
+  - "return values"
+  - "manual operation"
+  - "options"
+  - "setting parameters"
+  - "query"
+  - "default unit"
