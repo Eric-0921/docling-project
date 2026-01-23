@@ -1,3 +1,0 @@
-# LREX
-The external audio signal is feed in via the analog L and R inputs.
-

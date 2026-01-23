@@ -1,0 +1,49 @@
+# SMB100A Project Rules
+
+## Core Principles
+1. **Always use PyVISA** for instrument control. Do not use raw sockets or serial libraries unless explicitly requested.
+2. **Protect SCPI Commands**: When referencing commands, use the exact SCPI syntax (e.g., `:SOURce:FREQuency:CW`). Do NOT translate these commands.
+3. **Verify Connectivity**: Before sending control commands, always include a connection check (e.g., `*IDN?`).
+
+## Knowledge Base Usage
+- This project uses a structured knowledge base generated from the SMB100A Operating Manual.
+- **Primary Source**: `output/` (Look for the latest `run_*` folder).
+- **SCPI Database**: `output/.../knowledge_base/scpi_database.json` contains machine-readable command definitions.
+- **Reference Docs**: `docs/` contains project architectural documentation.
+- When searching for commands, prefer the structured JSON or the specific chapter Markdown (e.g., `06_Remote_Control.md`).
+
+## Code Generation Guidelines
+- **Python**: Use `pyvisa` and `pyserial`.
+- **Error Handling**: Implement try-except blocks for VISA timeouts and resource errors.
+- **Units**: Always specify units (Hz, dBm, etc.) in comments or variable names.
+
+## Example Pattern
+```python
+import pyvisa
+
+rm = pyvisa.ResourceManager()
+# Change address as needed
+inst = rm.open_resource('TCPIP::192.168.1.10::INSTR')
+
+# Check ID
+print(inst.query('*IDN?'))
+
+# Set Frequency (Example)
+# Command: :SOURce:FREQuency:CW
+inst.write(':FREQ 100MHz')
+
+# Check Errors
+print(inst.query('SYST:ERR?'))
+```
+
+## Engineering Discipline
+1. **Communication**: AI MUST plan and respond in Chinese. Comments in code MUST be Chinese.
+2. **File Safety**: 
+   - File paths MUST be English/ASCII only.
+   - NO output files in `docs/` or root.
+3. **Documentation**:
+   - `CHANGELOG.md` MUST be updated for every meaningful change.
+   - `README.md` MUST reflect the current project state.
+4. **Robustness**:
+   - Long-running tasks (>5min) MUST follow `rules/engineering_discipline.md`.
+   - ALWAYS implement checkpointing and logging for batch processing.

@@ -1,3 +1,0 @@
-# 5.3.2.3 Optional mnemonics
-Some command systems permit certain mnemonics to be inserted into the header or omitted. These mnemonics are marked by square brackets in the description. The instrument must recognize the long command to comply with the SCPI standard. Some commands are considerably shortened by these optional mnemonics.
-

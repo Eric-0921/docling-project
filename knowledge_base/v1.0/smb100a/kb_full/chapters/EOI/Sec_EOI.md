@@ -1,3 +1,0 @@
-# EOI
-The terminator must be sent together with the line message EOI (End of Line). This setting is recommended for binary block transmissions where a character could coincidentally have the value LF (Line Feed) but is not intended as the terminator. This setting must be selected for block data with undefined length.
-

@@ -1,3 +1,0 @@
-# 5.1.4 USB Interface
-For remote control via the USB connection, the PC and the instrument must be connected via the USB type B interface. A USB connection requires the VISA library to be installed. VISA detects and configures the R&S instrument automatically when the USB connection is established. You do not have to enter an address string or install a separate driver.
-

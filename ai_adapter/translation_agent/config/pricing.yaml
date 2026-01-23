@@ -1,0 +1,9 @@
+models:
+  deepseek-chat:
+    input_cache_hit: 0.14  # per 1M tokens
+    input_cache_miss: 0.28 # updated based on V3 pricing
+    output: 1.10
+  deepseek-reasoner:
+    input_cache_hit: 0.14
+    input_cache_miss: 0.55
+    output: 2.19

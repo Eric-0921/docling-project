@@ -1,3 +1,0 @@
-# Export Deactivation Response to File...
-Exports the generated deactivation response key to a file and opens a file management dialog to save the file. This key is required during the unregistration process.
-

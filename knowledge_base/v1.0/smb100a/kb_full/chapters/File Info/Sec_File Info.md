@@ -1,3 +1,0 @@
-# File Info
-Indicates the file name. The file name can be entered either manually via the file manager (button "File…") or generated automatically (Automatic naming checkbox). Automatic naming is configured in the "Options…" submenu.
-

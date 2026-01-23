@@ -1,3 +1,0 @@
-# DK
-The message identification (Durchsagekennung) is generated in addition (low-frequency 30% AM). It signalizes that a traffic message is currently broadcasted.
-

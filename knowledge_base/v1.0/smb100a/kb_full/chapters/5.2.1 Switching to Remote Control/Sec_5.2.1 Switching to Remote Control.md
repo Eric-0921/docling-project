@@ -1,3 +1,0 @@
-# 5.2.1 Switching to Remote Control
-After switching on, the instrument is usually in the local state and can be operated via the front panel controls (for instruments equipped with a display), a mouse and an external keyboard.
-

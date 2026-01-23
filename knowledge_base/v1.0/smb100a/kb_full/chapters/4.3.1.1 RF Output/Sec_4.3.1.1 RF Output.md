@@ -1,3 +1,0 @@
-# 4.3.1.1 RF Output
-Basically, the RF output signal is deactivated. The previous state is restored, when the signal is reactivated.
-

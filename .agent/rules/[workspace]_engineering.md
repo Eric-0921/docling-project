@@ -1,3 +1,7 @@
+---
+trigger: always_on
+---
+
 # 工作间工程规范 [WORKSPACE]
 
 > **[EI] Intervention Protocol**: 本规则在 docling-project 工作间内自动加载。AI 在生成遵循本规则的回复时，**必须**在内容前加注 `[EI]` (Engineering Intervention) 以表明合规性。
@@ -19,6 +23,11 @@ if os.environ.get('CONDA_DEFAULT_ENV') != 'doclingprj1':
 
 用户需要真实的进度反馈，严禁"虚假繁荣"。
 
+- **必须展示的信息**：
+  - **当前项**: 正在处理的具体文件名/页码 (`Current: page_12.pdf`)
+  - **性能指标**: VRAM Usage (GB), CPU %, RAM %
+  - **错误计数**: 成功/失败/跳过 (`S:10 / F:2 / SK:0`)
+  - **最近日志**: 显示最后 3 条关键日志
 - **推荐**: 使用 `rich.live` 展示 VRAM Usage, CPU %, Error Count。
 - **允许**: 使用 `tqdm` 滚动条，但必须遵守 **Honest Progress** 原则：
   - ✅ **真实计数**: 进度条必须基于实际处理完的 Item。
@@ -27,26 +36,27 @@ if os.environ.get('CONDA_DEFAULT_ENV') != 'doclingprj1':
 
 ## 3. 长任务托管 (Hosted Execution)
 
-- 耗时 > 5分钟的任务 **必须** 放入 Tmux (`tmux new -s job_name`)。
-- 必须实现 `SIGINT` (Ctrl+C) 优雅退出，保存当前进度 Checkpoint。
+- 耗时 > 10分钟的任务 **必须** 放入 Tmux
+- 使用 `tmux new -s job_name` 启动
+- 必须实现 `SIGINT` (Ctrl+C) 优雅退出，保存当前进度 Checkpoint
 
 ## 4. 资源红线 (Resource Limits)
 
 - **VRAM**: 保留 10% 冗余，严禁 OOM。
 - **Disk**: 写入前检查空间，少于 1GB 停止写入。
-- **Cleanup**: 必须在 `finally` 块中清理临时文件。
+- **Cleanup**: 必须在 `finally` 块中清理临时文件 (`/tmp/docling_*`)。
 
 ## 5. 预检机制 (Pre-flight Checks)
 
 启动前必须检查：
 
-1. **环境**: `doclingprj1`
-2. **依赖**: 关键库 (`rich`, `pyvisa`)
-3. **权限**: 输出目录写权限
+1. **环境**: `doclingprj1` (由代码强制)
+2. **依赖**: 关键库 (`rich`, `pyvisa`) 是否可导入
+3. **权限**: 输出目录是否有写权限
 
 ## 6. 试运行机制 (Dry Run Protocol)
 
-对于耗时 > 10min 或涉及外部 API 的任务，在全量运行前 **必须** 执行试运行：
+对于耗时 > 3min 或涉及外部 API 的任务，在全量运行前 **必须** 执行试运行：
 
 1. **抽样**: 使用 `--limit 10` 或随机抽取 5-10 个样本。
 2. **验证**: 确认输出文件格式正确，无逻辑错误。

@@ -1,3 +1,0 @@
-# USER
-The filter length is set manually. As the filter length works as a multiplier for the measurement time, this results in a constant measurement time.
-

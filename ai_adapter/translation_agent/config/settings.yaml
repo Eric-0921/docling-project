@@ -1,0 +1,9 @@
+model: "deepseek-chat"
+base_url: "https://api.deepseek.com"
+temperature: 0.1
+max_tokens_per_chunk: 1024  # DeepSeek optimal chunk size for caching is large, but for safety lets keep it manageable. 
+# KV Cache optimization: The system prompt + prefix should be same.
+# We will use valid JSON output.
+response_format:
+  type: "json_object"
+use_thinking_mode: false # Set to true for complex sections if needed

@@ -1,0 +1,31 @@
+# 术语表 (Glossary)
+# 格式: 源语言: 目标语言
+# 如果目标语言与源语言相同，表示不翻译
+
+terms:
+  "SMB100A": "SMB100A"
+  "Rohde & Schwarz": "Rohde & Schwarz"
+  "R&S": "R&S"
+  "SCPI": "SCPI"
+  "RF": "射频 (RF)"
+  "Microwave": "微波"
+  "Signal Generator": "信号发生器"
+  "Frequency": "频率"
+  "Level": "电平"
+  "Sweep": "扫描"
+  "List Mode": "列表模式"
+  "User Interface": "用户界面"
+  "GUI": "图形用户界面 (GUI)"
+  "Remote Control": "远程控制"
+  "Linux": "Linux"
+  "GPIB": "GPIB"
+  "USB": "USB"
+  "LAN": "局域网 (LAN)"
+  "VNC": "VNC"
+  "LXI": "LXI"
+  "Trigger": "触发"
+  "Modulation": "调制"
+  "Pulse": "脉冲"
+  "AM": "调幅 (AM)"
+  "FM": "调频 (FM)"
+  "PM": "调相 (PM)"

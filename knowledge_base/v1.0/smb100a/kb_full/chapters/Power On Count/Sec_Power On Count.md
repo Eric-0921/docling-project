@@ -1,7 +1,0 @@
-# Power On Count
-Displays the number of power-on.
-
-Remote command:
-
-:DIAGnostic:INFO:POCount? on page 294
-

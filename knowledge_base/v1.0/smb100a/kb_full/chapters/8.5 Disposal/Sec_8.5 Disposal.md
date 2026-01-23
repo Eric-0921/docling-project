@@ -1,3 +1,0 @@
-# 8.5 Disposal
-Rohde & Schwarz is committed to making careful, ecologically sound use of natural resources and minimizing the environmental footprint of our products. Help us by disposing of waste in a way that causes minimum environmental impact.
-

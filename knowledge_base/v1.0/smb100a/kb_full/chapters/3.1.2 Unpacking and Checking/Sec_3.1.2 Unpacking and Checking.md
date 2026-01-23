@@ -1,9 +1,0 @@
-# 3.1.2 Unpacking and Checking
-Unpack the R&S SMB carefully.
-
-Retain the original packing material. Use it to protect the control elements and connectors when transporting or shipping the R&S SMB later. See also "Lifting and carrying" on page 489.
-
-Using the delivery notes, check the equipment for completeness.
-
-Check the equipment for damage. If the delivery is incomplete or equipment is damaged, contact Rohde & Schwarz.
-

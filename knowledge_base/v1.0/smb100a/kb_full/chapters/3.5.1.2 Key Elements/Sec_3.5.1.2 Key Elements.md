@@ -1,3 +1,0 @@
-# 3.5.1.2 Key Elements
-The manual operating concept of the R&S SMB enables the user to make settings as intuitively as possible and at the same time gives a permanent overview of characteristics of the generated signal and of the current instrument state. Numerous online help functions support user settings.
-
