@@ -1,0 +1,31 @@
+{
+  "status": "failed",
+  "start_time": "2026-01-22T13:05:50.266491",
+  "elapsed_seconds": 0.549356,
+  "last_heartbeat": "2026-01-22T13:05:50.815858",
+  "pages_requested": [
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82
+  ],
+  "error_message": "Traceback (most recent call last):\n  File \"/home/tseng/git/docling-project/docling_pipeline/scripts/convert_pdf.py\", line 248, in run_conversion\n    res = converter.convert(input_path, page_numbers=page_nums)\n  File \"/home/tseng/anaconda3/envs/doclingprj1/lib/python3.10/site-packages/pydantic/_internal/_validate_call.py\", line 39, in wrapper_function\n    return wrapper(*args, **kwargs)\n  File \"/home/tseng/anaconda3/envs/doclingprj1/lib/python3.10/site-packages/pydantic/_internal/_validate_call.py\", line 136, in __call__\n    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))\npydantic_core._pydantic_core.ValidationError: 1 validation error for DocumentConverter.convert\npage_numbers\n  Unexpected keyword argument [type=unexpected_keyword_argument, input_value=[62, 63, 64, 65, 66, 67, ... 77, 78, 79, 80, 81, 82], input_type=list]\n    For further information visit https://errors.pydantic.dev/2.12/v/unexpected_keyword_argument\n",
+  "output_files": []
+}

@@ -36,6 +36,16 @@
   - 将 AI 优化后的 SMB100A 中文手册 (`SMB100A_OperatingManual_cn_ai_tables.md`) 正式部署至 `database/production/i18n/zh-cn/v1.0_20260123/`，替换了旧版文件。
   - 该版本修复了 95% 以上的表格排版问题，并应用了最新的视觉优化规则。
 
+### ♻️ 结构重构 (Refactor)
+
+- **文档体系重组 (Documentation Restructuring)**:
+  - **资产迁移**: 将 `visual_optimized` 移至 `database/`，确立核心数据资产地位。
+  - **文档归类**:
+    - `docs/guides/`: 存放技术规范与指南 (Tmux, Git, API 等)。
+    - `docs/planning/`: 存放开发计划与创意草稿。
+    - `docs/archive/`: 归档旧版测试文件。
+  - **规范化**: 强制所有文档文件名采用全英文 (ASCII) 命名，移除非 ASCII 字符。
+
 ## [0.2.0] - 2026-01-22
 
 ### ✨ 新增特性 (Features)

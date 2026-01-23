@@ -1,0 +1,23 @@
+---
+chapter_index: 728
+title: "Spacing_-_Frequency_Sweep"
+--- 
+
+# Spacing_-_Frequency_Sweep
+
+Spacing - Frequency Sweep
+
+Selects the mode for the calculation of the frequency sweep intervals.
+
+"Linear"
+
+Takes the frequency value entered as an absolute value in Hz.
+
+"Logarithmic"
+
+Takes the value entered as a lograithmic value, that means as a constant fraction of teh current frequency in % .
+
+Remote command:
+
+[:SOURce<hw>]:SWEep[:FREQuency]:SPACing on page 427
+

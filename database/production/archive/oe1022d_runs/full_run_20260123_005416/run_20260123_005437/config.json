@@ -1,0 +1,13 @@
+{
+  "input": "oe1022d-lockin.pdf",
+  "output": "knowledge_base/archive/oe1022d_runs/full_run_20260123_005416",
+  "max_pages": null,
+  "pages": null,
+  "settings": {
+    "page_batch_size": 16,
+    "ocr_batch_size": 32,
+    "table_mode": "TableFormer.ACCURATE",
+    "ocr_engine": "RapidOCR(torch)",
+    "code_formula": true
+  }
+}

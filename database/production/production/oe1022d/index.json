@@ -1,0 +1,1538 @@
+{
+  "meta": {
+    "source": "oe1022d-lockin.json",
+    "pdf_version": "OE1022D Manual"
+  },
+  "structure": [
+    {
+      "title": "00_Front_Matter",
+      "file": "chapters/00_Front_Matter/00_Front_Matter.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "MODEL OE1022D",
+      "file": "chapters/MODEL_OE1022D/MODEL_OE1022D.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "DSP Lock-In Amplifier",
+      "file": "chapters/DSP_Lock-In_Amplifier/DSP_Lock-In_Amplifier.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "目录",
+      "file": "chapters/目录/目录.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1. 技术参数",
+      "file": "chapters/1_技术参数/1_技术参数.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1.1 双通道信号输入",
+      "file": "chapters/11_双通道信号输入/11_双通道信号输入.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1.2 双通道参考输入",
+      "file": "chapters/12_双通道参考输入/12_双通道参考输入.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1.3 解调器",
+      "file": "chapters/13_解调器/13_解调器.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1.4 内部振荡器与输出",
+      "file": "chapters/14_内部振荡器与输出/14_内部振荡器与输出.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1.5 显示",
+      "file": "chapters/15_显示/15_显示.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1.6 辅助输入与输出",
+      "file": "chapters/16_辅助输入与输出/16_辅助输入与输出.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1.7 接口",
+      "file": "chapters/17_接口/17_接口.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1.8 其他",
+      "file": "chapters/18_其他/18_其他.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2. 锁相放大器基础",
+      "file": "chapters/2_锁相放大器基础/2_锁相放大器基础.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.1 锁相放大器介绍",
+      "file": "chapters/21_锁相放大器介绍/21_锁相放大器介绍.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.2 OE1022D 功能原理图",
+      "file": "chapters/22_OE1022D_功能原理图/22_OE1022D_功能原理图.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.3 OE1022D 参考通道",
+      "file": "chapters/23_OE1022D_参考通道/23_OE1022D_参考通道.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.4 相敏检波器",
+      "file": "chapters/24_相敏检波器/24_相敏检波器.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.5 时间常数和直流增益",
+      "file": "chapters/25_时间常数和直流增益/25_时间常数和直流增益.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "时间常数",
+      "file": "chapters/时间常数/时间常数.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "数字滤波器与模拟滤波器对比",
+      "file": "chapters/数字滤波器与模拟滤波器对比/数字滤波器与模拟滤波器对比.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "同步滤波器",
+      "file": "chapters/同步滤波器/同步滤波器.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "较大的时间常数",
+      "file": "chapters/较大的时间常数/较大的时间常数.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "直流输出增益",
+      "file": "chapters/直流输出增益/直流输出增益.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.6 直流输出和增益",
+      "file": "chapters/26_直流输出和增益/26_直流输出和增益.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "CH1 和 CH2 的输出与显示",
+      "file": "chapters/CH1_和_CH2_的输出与显示/CH1_和_CH2_的输出与显示.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "X ， Y 和 R 的输出偏移与增益",
+      "file": "chapters/X__Y_和_R_的输出偏移与增益/X__Y_和_R_的输出偏移与增益.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.7 OE1022D 动态储备",
+      "file": "chapters/27_OE1022D_动态储备/27_OE1022D_动态储备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.8 信号输入放大和滤波",
+      "file": "chapters/28_信号输入放大和滤波/28_信号输入放大和滤波.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "输入噪声",
+      "file": "chapters/输入噪声/输入噪声.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "陷波滤波器",
+      "file": "chapters/陷波滤波器/陷波滤波器.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "抗混叠滤波器",
+      "file": "chapters/抗混叠滤波器/抗混叠滤波器.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "输入阻抗",
+      "file": "chapters/输入阻抗/输入阻抗.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.9 输入端连接",
+      "file": "chapters/29_输入端连接/29_输入端连接.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "单端连接模式（ A ）",
+      "file": "chapters/单端连接模式_A/单端连接模式_A.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "差分连接模式",
+      "file": "chapters/差分连接模式/差分连接模式.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "电流输入模式（ I ）",
+      "file": "chapters/电流输入模式_I/电流输入模式_I.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "交流耦合和直流耦合模式",
+      "file": "chapters/交流耦合和直流耦合模式/交流耦合和直流耦合模式.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.10 固有噪声",
+      "file": "chapters/210_固有噪声/210_固有噪声.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "噪声",
+      "file": "chapters/噪声/噪声.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "约翰逊噪声 (Johnson Noise)",
+      "file": "chapters/约翰逊噪声_Johnson_Noise/约翰逊噪声_Johnson_Noise.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "散射噪声（ Shot Noise ）",
+      "file": "chapters/散射噪声_Shot_Noise/散射噪声_Shot_Noise.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1/f 噪声（ Flicker Noise ）",
+      "file": "chapters/1f_噪声_Flicker_Noise/1f_噪声_Flicker_Noise.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.11 外部噪声源",
+      "file": "chapters/211_外部噪声源/211_外部噪声源.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "电容耦合",
+      "file": "chapters/电容耦合/电容耦合.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "电感耦合",
+      "file": "chapters/电感耦合/电感耦合.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "阻性耦合和接地环路",
+      "file": "chapters/阻性耦合和接地环路/阻性耦合和接地环路.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "颤动噪声效应",
+      "file": "chapters/颤动噪声效应/颤动噪声效应.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "热电偶效应",
+      "file": "chapters/热电偶效应/热电偶效应.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.12 噪声测量",
+      "file": "chapters/212_噪声测量/212_噪声测量.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.13 辅助模拟输入（AUX IN）",
+      "file": "chapters/213_辅助模拟输入AUX_IN/213_辅助模拟输入AUX_IN.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.14 信号发生器的频率、幅值扫描",
+      "file": "chapters/214_信号发生器的频率幅值扫描/214_信号发生器的频率幅值扫描.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "2.15 多谐波测量",
+      "file": "chapters/215_多谐波测量/215_多谐波测量.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3. 界面介绍",
+      "file": "chapters/3_界面介绍/3_界面介绍.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.1 前面板",
+      "file": "chapters/31_前面板/31_前面板.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.1.1 显示屏",
+      "file": "chapters/311_显示屏/311_显示屏.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.1.2 软键",
+      "file": "chapters/312_软键/312_软键.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.1.3 旋钮",
+      "file": "chapters/313_旋钮/313_旋钮.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.1.4 键盘",
+      "file": "chapters/314_键盘/314_键盘.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.1.5 BNC 连接器",
+      "file": "chapters/315_BNC_连接器/315_BNC_连接器.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "REF IN",
+      "file": "chapters/REF_IN/REF_IN.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "SIGNAL IN",
+      "file": "chapters/SIGNAL_IN/SIGNAL_IN.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.2 后面板",
+      "file": "chapters/32_后面板/32_后面板.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.2.1 电源接口",
+      "file": "chapters/321_电源接口/321_电源接口.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.2.2 USB",
+      "file": "chapters/322_USB/322_USB.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.2.3 RS232 接口",
+      "file": "chapters/323_RS232_接口/323_RS232_接口.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.2.4 SINE OUT",
+      "file": "chapters/324_SINE_OUT/324_SINE_OUT.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.2.5 TTL OUT",
+      "file": "chapters/325_TTL_OUT/325_TTL_OUT.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.2.6 AUX IN",
+      "file": "chapters/326_AUX_IN/326_AUX_IN.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.2.7 TRIG IN",
+      "file": "chapters/327_TRIG_IN/327_TRIG_IN.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.2.8 CH1&CH2",
+      "file": "chapters/328_CH1CH2/328_CH1CH2.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "OUTPUT",
+      "file": "chapters/OUTPUT/OUTPUT.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.2.9 MONITOR",
+      "file": "chapters/329_MONITOR/329_MONITOR.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.3 主界面",
+      "file": "chapters/33_主界面/33_主界面.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.3.1 数据栏",
+      "file": "chapters/331_数据栏/331_数据栏.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.3.2 监测栏",
+      "file": "chapters/332_监测栏/332_监测栏.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "3.3.3 功能栏",
+      "file": "chapters/333_功能栏/333_功能栏.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4. 菜单",
+      "file": "chapters/4_菜单/4_菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.1 [INPUT/FILTERS]子菜单",
+      "file": "chapters/41_INPUTFILTERS子菜单/41_INPUTFILTERS子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.1.1 <Source>：输入模式设置",
+      "file": "chapters/411_Source输入模式设置/411_Source输入模式设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.1.2 <Current Gain>：电流增益设置",
+      "file": "chapters/412_Current_Gain电流增益设置/412_Current_Gain电流增益设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.1.3 <Grounding>：接地设置",
+      "file": "chapters/413_Grounding接地设置/413_Grounding接地设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.1.4 <Coupling>：耦合设置",
+      "file": "chapters/414_Coupling耦合设置/414_Coupling耦合设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.1.5 <Line Notches>：陷波器设置",
+      "file": "chapters/415_Line_Notches陷波器设置/415_Line_Notches陷波器设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2 [REF/PHASE]子菜单",
+      "file": "chapters/42_REFPHASE子菜单/42_REFPHASE子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.1 <Ref.phase>: 参考相位设置",
+      "file": "chapters/421_Refphase_参考相位设置/421_Refphase_参考相位设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.2 <Ref.source>：参考信号源设置",
+      "file": "chapters/422_Refsource参考信号源设置/422_Refsource参考信号源设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.3 <Ref.Slope>：外部参考信号类型设置",
+      "file": "chapters/423_RefSlope外部参考信号类型设置/423_RefSlope外部参考信号类型设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.4 <Ref.frequency>：内部参考信号频率设置",
+      "file": "chapters/424_Reffrequency内部参考信号频率设置/424_Reffrequency内部参考信号频率设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.5 <Sweep>：内部参考信号扫频设置",
+      "file": "chapters/425_Sweep内部参考信号扫频设置/425_Sweep内部参考信号扫频设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.5.1 <Sweep Type>：扫频类型设置",
+      "file": "chapters/4251_Sweep_Type扫频类型设置/4251_Sweep_Type扫频类型设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.5.2 <Sweep Set>：扫频参数设置",
+      "file": "chapters/4252_Sweep_Set扫频参数设置/4252_Sweep_Set扫频参数设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.6 <Harmonic>：谐波检测设置",
+      "file": "chapters/426_Harmonic谐波检测设置/426_Harmonic谐波检测设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.7 <Sine Output>：正弦信号输出设置",
+      "file": "chapters/427_Sine_Output正弦信号输出设置/427_Sine_Output正弦信号输出设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.7.1 <Sweep Type>：扫幅类型设置",
+      "file": "chapters/4271_Sweep_Type扫幅类型设置/4271_Sweep_Type扫幅类型设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.7.2 <Voltage>：正弦信号输出幅值设置",
+      "file": "chapters/4272_Voltage正弦信号输出幅值设置/4272_Voltage正弦信号输出幅值设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.7.3 <Sweep Set>:扫幅参数设置",
+      "file": "chapters/4273_Sweep_Set扫幅参数设置/4273_Sweep_Set扫幅参数设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.2.7.4 <Sweep Run>：扫幅运行模式设置",
+      "file": "chapters/4274_Sweep_Run扫幅运行模式设置/4274_Sweep_Run扫幅运行模式设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.3 [GAIN/TC]子菜单",
+      "file": "chapters/43_GAINTC子菜单/43_GAINTC子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.3.1 <Sensitivity>：满偏灵敏度设置",
+      "file": "chapters/431_Sensitivity满偏灵敏度设置/431_Sensitivity满偏灵敏度设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.3.3 <Time Constant>：时间常数设置",
+      "file": "chapters/433_Time_Constant时间常数设置/433_Time_Constant时间常数设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.3.4 <Filter dB/oct>：低通滤波器陡降设置",
+      "file": "chapters/434_Filter_dBoct低通滤波器陡降设置/434_Filter_dBoct低通滤波器陡降设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.3.5 <Synchronous>：同步滤波器设置",
+      "file": "chapters/435_Synchronous同步滤波器设置/435_Synchronous同步滤波器设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.4 [DISPLAY] 子菜单",
+      "file": "chapters/44_DISPLAY_子菜单/44_DISPLAY_子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.4.1 <Display&Scale>：动态区域显示设置",
+      "file": "chapters/441_DisplayScale动态区域显示设置/441_DisplayScale动态区域显示设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.4.1.1 <Area>：区域显示设置",
+      "file": "chapters/4411_Area区域显示设置/4411_Area区域显示设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.4.1.2 <Type/Trace>：显示模式及类型设置",
+      "file": "chapters/4412_TypeTrace显示模式及类型设置/4412_TypeTrace显示模式及类型设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.4.2 <Equation>：公式设置",
+      "file": "chapters/442_Equation公式设置/442_Equation公式设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.4.2.1 <Equation>:公式参数设置",
+      "file": "chapters/4421_Equation公式参数设置/4421_Equation公式参数设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.4.2.2 <C1>：常数参数1的设置",
+      "file": "chapters/4422_C1常数参数1的设置/4422_C1常数参数1的设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.4.3 <Disp More>：更多显示设置",
+      "file": "chapters/443_Disp_More更多显示设置/443_Disp_More更多显示设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.4.3.1 <Range>：显示范围设置",
+      "file": "chapters/4431_Range显示范围设置/4431_Range显示范围设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.4.3.2 <Curve Point>：采样曲线位置设置",
+      "file": "chapters/4432_Curve_Point采样曲线位置设置/4432_Curve_Point采样曲线位置设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.5 [SAVE/RECALL] 子菜单",
+      "file": "chapters/45_SAVERECALL_子菜单/45_SAVERECALL_子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.6 [CHANNEL OUTPUT]子菜单",
+      "file": "chapters/46_CHANNEL_OUTPUT子菜单/46_CHANNEL_OUTPUT子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.6.1 <Output.Source>：输出源通道设置",
+      "file": "chapters/461_OutputSource输出源通道设置/461_OutputSource输出源通道设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "以下部分选项为 A 、 B 通道均有：",
+      "file": "chapters/以下部分选项为_A__B_通道均有/以下部分选项为_A__B_通道均有.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.6.2 <Offset & Expand>：偏置与放大设置",
+      "file": "chapters/462_Offset__Expand偏置与放大设置/462_Offset__Expand偏置与放大设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.6.2.1 <Offset & Expand>：设置对应参数值的偏置及放大",
+      "file": "chapters/4621_Offset__Expand设置对应参数值的偏置及放大/4621_Offset__Expand设置对应参数值的偏置及放大.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.6.3 <Speed>：输出速率设置",
+      "file": "chapters/463_Speed输出速率设置/463_Speed输出速率设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.6.4 <Voltage>：AUXOUT 输出幅值设置",
+      "file": "chapters/464_VoltageAUXOUT_输出幅值设置/464_VoltageAUXOUT_输出幅值设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.7 [SAMPLE]子菜单",
+      "file": "chapters/47_SAMPLE子菜单/47_SAMPLE子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.7.1 <Step Time>：采样间隔设置",
+      "file": "chapters/471_Step_Time采样间隔设置/471_Step_Time采样间隔设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.7.2 <Length>：采样长度设置",
+      "file": "chapters/472_Length采样长度设置/472_Length采样长度设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.7.3 <Select>：采样对象设置",
+      "file": "chapters/473_Select采样对象设置/473_Select采样对象设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.7.3.1 <Buffer1 -4>：对四个采样缓存区的选择设置",
+      "file": "chapters/4731_Buffer1_-4对四个采样缓存区的选择设置/4731_Buffer1_-4对四个采样缓存区的选择设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.7.4 <Trigger Mode>：触发模式设置",
+      "file": "chapters/474_Trigger_Mode触发模式设置/474_Trigger_Mode触发模式设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.7.5 <Sample Mode>：采样模式设置",
+      "file": "chapters/475_Sample_Mode采样模式设置/475_Sample_Mode采样模式设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.8 [SYSTEM]子菜单",
+      "file": "chapters/48_SYSTEM子菜单/48_SYSTEM子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.8.1 <Info>二级子菜单",
+      "file": "chapters/481_Info二级子菜单/481_Info二级子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.8.2 <Screen>二级子菜单",
+      "file": "chapters/482_Screen二级子菜单/482_Screen二级子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.8.3 <Remote>二级子菜单",
+      "file": "chapters/483_Remote二级子菜单/483_Remote二级子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.8.4 <Reset ？>：锁相放大器复位",
+      "file": "chapters/484_Reset_锁相放大器复位/484_Reset_锁相放大器复位.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.9 [AUTO SET]子菜单",
+      "file": "chapters/49_AUTO_SET子菜单/49_AUTO_SET子菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.9.1 <Auto Reserve>：自动设置动态储备功能",
+      "file": "chapters/491_Auto_Reserve自动设置动态储备功能/491_Auto_Reserve自动设置动态储备功能.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.9.2 <Auto Gain>：自动设置灵敏度功能",
+      "file": "chapters/492_Auto_Gain自动设置灵敏度功能/492_Auto_Gain自动设置灵敏度功能.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.9.3 <Auto Phase>：自动移相功能",
+      "file": "chapters/493_Auto_Phase自动移相功能/493_Auto_Phase自动移相功能.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.9.4 <Auto Scale>：自动刻度功能",
+      "file": "chapters/494_Auto_Scale自动刻度功能/494_Auto_Scale自动刻度功能.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.10 其他功能键说明",
+      "file": "chapters/410_其他功能键说明/410_其他功能键说明.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.10.1 [CH A/B SWITCH]键设置",
+      "file": "chapters/4101_CH_AB_SWITCH键设置/4101_CH_AB_SWITCH键设置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.10.2 [CONTROL]菜单",
+      "file": "chapters/4102_CONTROL菜单/4102_CONTROL菜单.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.10.2.1 [START/CONT]：开启或继续数据采样",
+      "file": "chapters/41021_STARTCONT开启或继续数据采样/41021_STARTCONT开启或继续数据采样.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.10.2.2 [PAUSE/CLEAR]：暂停采样或清空采样数据",
+      "file": "chapters/41022_PAUSECLEAR暂停采样或清空采样数据/41022_PAUSECLEAR暂停采样或清空采样数据.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.10.2.3 [CURSOR]：<Chart>图中标尺的显示和隐藏",
+      "file": "chapters/41023_CURSORChart图中标尺的显示和隐藏/41023_CURSORChart图中标尺的显示和隐藏.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "4.10.2.4 [ACTIVE CHART]：选择<Chart>图为活动区域",
+      "file": "chapters/41024_ACTIVE_CHART选择Chart图为活动区域/41024_ACTIVE_CHART选择Chart图为活动区域.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5. 远程编程",
+      "file": "chapters/5_远程编程/5_远程编程.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.1 OE1022D 命令语法",
+      "file": "chapters/51_OE1022D_命令语法/51_OE1022D_命令语法.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2 详细的命令列表",
+      "file": "chapters/52_详细的命令列表/52_详细的命令列表.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.1 参考与相位指令",
+      "file": "chapters/521_参考与相位指令/521_参考与相位指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.2 Equation 指令",
+      "file": "chapters/522_Equation_指令/522_Equation_指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.3 输入与滤波器指令",
+      "file": "chapters/523_输入与滤波器指令/523_输入与滤波器指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.4 灵敏度和时间常数指令",
+      "file": "chapters/524_灵敏度和时间常数指令/524_灵敏度和时间常数指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.5 显示和输出指令",
+      "file": "chapters/525_显示和输出指令/525_显示和输出指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "具体如下：",
+      "file": "chapters/具体如下/具体如下.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.6 保存读取设置指令",
+      "file": "chapters/526_保存读取设置指令/526_保存读取设置指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.7 自动设置指令",
+      "file": "chapters/527_自动设置指令/527_自动设置指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.8 数据存储指令",
+      "file": "chapters/528_数据存储指令/528_数据存储指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.9 数据读取指令",
+      "file": "chapters/529_数据读取指令/529_数据读取指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.10 复位与 IDN 指令",
+      "file": "chapters/5210_复位与_IDN_指令/5210_复位与_IDN_指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "5.2.11 全局数据配置读取指令",
+      "file": "chapters/5211_全局数据配置读取指令/5211_全局数据配置读取指令.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "RALL? 返回数据格式如下：",
+      "file": "chapters/RALL_返回数据格式如下/RALL_返回数据格式如下.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6. PC 软件安装使用说明",
+      "file": "chapters/6_PC_软件安装使用说明/6_PC_软件安装使用说明.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.1 软件安装",
+      "file": "chapters/61_软件安装/61_软件安装.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "第一步：软件驱动安装",
+      "file": "chapters/第一步软件驱动安装/第一步软件驱动安装.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意：",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "第二步：驱动安装",
+      "file": "chapters/第二步驱动安装/第二步驱动安装.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "接口驱动",
+      "file": "chapters/接口驱动/接口驱动.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意：",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "USB2.0 驱动安装方法：",
+      "file": "chapters/USB20_驱动安装方法/USB20_驱动安装方法.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2 软件使用说明",
+      "file": "chapters/62_软件使用说明/62_软件使用说明.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.1 软件运行",
+      "file": "chapters/621_软件运行/621_软件运行.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.2 PC 机与 OE1022D 连接",
+      "file": "chapters/622_PC_机与_OE1022D_连接/622_PC_机与_OE1022D_连接.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "此时有两种方法可以重新连接：",
+      "file": "chapters/此时有两种方法可以重新连接/此时有两种方法可以重新连接.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.3 输入与滤波器配置",
+      "file": "chapters/623_输入与滤波器配置/623_输入与滤波器配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "输入与滤波器配置区域如下图所示：",
+      "file": "chapters/输入与滤波器配置区域如下图所示/输入与滤波器配置区域如下图所示.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.3.1 输入信号的软件配置",
+      "file": "chapters/6231_输入信号的软件配置/6231_输入信号的软件配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "可供用户配置的选项如下表 6 ：",
+      "file": "chapters/可供用户配置的选项如下表_6/可供用户配置的选项如下表_6.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意：",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.3.2 动态储备和灵敏度配置",
+      "file": "chapters/6232_动态储备和灵敏度配置/6232_动态储备和灵敏度配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "同时开启 50 Hz 和 100 Hz 陷波器，抑制工频 和工频二次谐波干扰",
+      "file": "chapters/同时开启_50_Hz_和_100_Hz_陷波器抑制工频_和工频二次谐波干扰/同时开启_50_Hz_和_100_Hz_陷波器抑制工频_和工频二次谐波干扰.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意 :",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.3.3 滤波器配置",
+      "file": "chapters/6233_滤波器配置/6233_滤波器配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意 :",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.3.4 谐波测量配置",
+      "file": "chapters/6234_谐波测量配置/6234_谐波测量配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意 :",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.4 参考信号及扫频配置",
+      "file": "chapters/624_参考信号及扫频配置/624_参考信号及扫频配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "可供用户配置的选项如下表 10 ：",
+      "file": "chapters/可供用户配置的选项如下表_10/可供用户配置的选项如下表_10.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "表 10. 参考信号配置选项表",
+      "file": "chapters/表_10_参考信号配置选项表/表_10_参考信号配置选项表.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意 :",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "可供用户配置的选项如下表 11 ：",
+      "file": "chapters/可供用户配置的选项如下表_11/可供用户配置的选项如下表_11.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意 :",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.5 通道输出与数据采样配置",
+      "file": "chapters/625_通道输出与数据采样配置/625_通道输出与数据采样配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.5.1 数据缓存区配置",
+      "file": "chapters/6251_数据缓存区配置/6251_数据缓存区配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意 :",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.5.2 系统设置读取与存储",
+      "file": "chapters/6252_系统设置读取与存储/6252_系统设置读取与存储.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意 :",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.5.3 Channel Out 通道输出配置",
+      "file": "chapters/6253_Channel_Out_通道输出配置/6253_Channel_Out_通道输出配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "可供用户配置的选项如下表 14 ：",
+      "file": "chapters/可供用户配置的选项如下表_14/可供用户配置的选项如下表_14.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意：",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.6 正弦输出及公式配置",
+      "file": "chapters/626_正弦输出及公式配置/626_正弦输出及公式配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.6.1 正弦信号输出配置",
+      "file": "chapters/6261_正弦信号输出配置/6261_正弦信号输出配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意：",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.6.2 自定义公式配置",
+      "file": "chapters/6262_自定义公式配置/6262_自定义公式配置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "注意：",
+      "file": "chapters/注意/注意.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.7 数据显示与保存",
+      "file": "chapters/627_数据显示与保存/627_数据显示与保存.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.7.1 测量值实时显示",
+      "file": "chapters/6271_测量值实时显示/6271_测量值实时显示.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.7.2 数据保存",
+      "file": "chapters/6272_数据保存/6272_数据保存.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.2.7.3 波形图显示",
+      "file": "chapters/6273_波形图显示/6273_波形图显示.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "6.3 软件使用实例",
+      "file": "chapters/63_软件使用实例/63_软件使用实例.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7. 性能测试",
+      "file": "chapters/7_性能测试/7_性能测试.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "简介",
+      "file": "chapters/简介/简介.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "序列号",
+      "file": "chapters/序列号/序列号.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "固件版本",
+      "file": "chapters/固件版本/固件版本.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "预热",
+      "file": "chapters/预热/预热.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "测试记录",
+      "file": "chapters/测试记录/测试记录.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "测试失败",
+      "file": "chapters/测试失败/测试失败.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "测试必要设备",
+      "file": "chapters/测试必要设备/测试必要设备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "1. 函数信号发生器",
+      "file": "chapters/1_函数信号发生器/1_函数信号发生器.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "前面板液晶测试",
+      "file": "chapters/前面板液晶测试/前面板液晶测试.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "键盘测试",
+      "file": "chapters/键盘测试/键盘测试.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7.1 启动测试",
+      "file": "chapters/71_启动测试/71_启动测试.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "设备",
+      "file": "chapters/设备/设备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "步骤",
+      "file": "chapters/步骤/步骤.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7.2 直流偏置",
+      "file": "chapters/72_直流偏置/72_直流偏置.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "设备",
+      "file": "chapters/设备/设备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "步骤",
+      "file": "chapters/步骤/步骤.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7.3 共模抑制",
+      "file": "chapters/73_共模抑制/73_共模抑制.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "设备",
+      "file": "chapters/设备/设备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "步骤",
+      "file": "chapters/步骤/步骤.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7.4 幅值精度和平坦度",
+      "file": "chapters/74_幅值精度和平坦度/74_幅值精度和平坦度.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "设备",
+      "file": "chapters/设备/设备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "步骤",
+      "file": "chapters/步骤/步骤.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7.5 幅值线性度",
+      "file": "chapters/75_幅值线性度/75_幅值线性度.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "设备",
+      "file": "chapters/设备/设备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "设置函数信号发生器：",
+      "file": "chapters/设置函数信号发生器/设置函数信号发生器.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "步骤",
+      "file": "chapters/步骤/步骤.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7.6 频率精度",
+      "file": "chapters/76_频率精度/76_频率精度.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "设备",
+      "file": "chapters/设备/设备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "步骤",
+      "file": "chapters/步骤/步骤.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7.7 Sine Out 幅值精度和平坦度",
+      "file": "chapters/77_Sine_Out_幅值精度和平坦度/77_Sine_Out_幅值精度和平坦度.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "设备",
+      "file": "chapters/设备/设备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "步骤",
+      "file": "chapters/步骤/步骤.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "Test Frequencies",
+      "file": "chapters/Test_Frequencies/Test_Frequencies.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7.8 两路模拟输出和四通道辅助输入",
+      "file": "chapters/78_两路模拟输出和四通道辅助输入/78_两路模拟输出和四通道辅助输入.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "设备",
+      "file": "chapters/设备/设备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "步骤",
+      "file": "chapters/步骤/步骤.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7.9 输入噪声",
+      "file": "chapters/79_输入噪声/79_输入噪声.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "设备",
+      "file": "chapters/设备/设备.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "步骤",
+      "file": "chapters/步骤/步骤.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "7.10 OE1022D 性能测试记录表",
+      "file": "chapters/710_OE1022D_性能测试记录表/710_OE1022D_性能测试记录表.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "8. 操作实例",
+      "file": "chapters/8_操作实例/8_操作实例.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "8.1 基本信号测量",
+      "file": "chapters/81_基本信号测量/81_基本信号测量.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "8.2 谐波测量",
+      "file": "chapters/82_谐波测量/82_谐波测量.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "8.3 某任意光源光谱测量",
+      "file": "chapters/83_某任意光源光谱测量/83_某任意光源光谱测量.md",
+      "type": "section",
+      "level": 1
+    },
+    {
+      "title": "8.4 串口通讯",
+      "file": "chapters/84_串口通讯/84_串口通讯.md",
+      "type": "section",
+      "level": 1
+    }
+  ]
+}

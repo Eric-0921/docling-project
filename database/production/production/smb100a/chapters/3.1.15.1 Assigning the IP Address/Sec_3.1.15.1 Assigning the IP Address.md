@@ -1,0 +1,23 @@
+# 3.1.15.1 Assigning the IP Address
+Depending on the network capacities, the TCP/IP address information for the instrument can be obtained in different ways.
+
+If the network supports dynamic TCP/IP configuration using the Dynamic Host Configuration Protocol (DHCP), all address information can be assigned automatically.
+
+If the network does not support DHCP, the instrument tries to obtain the IP address via Zeroconf (APIPA) protocol. If this attempt does not succeed or if the instrument is set to use alternate TCP/IP configuration, the addresses must be set manually.
+
+Preparing for Use
+
+Operating Manual 1407.0806.32 ─ 23
+
+30
+
+R&S ® SMB100A
+
+Getting Started
+
+Preparing for Use
+
+![Picture](#/pictures/13)
+
+By default, the instrument is configured to use dynamic TCP/IP configuration and obtain all address information automatically. This means that it is safe to establish a physical connection to the LAN without any previous instrument configuration.
+

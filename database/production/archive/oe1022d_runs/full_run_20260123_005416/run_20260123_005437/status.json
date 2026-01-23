@@ -1,0 +1,12 @@
+{
+  "status": "completed",
+  "start_time": "2026-01-23T00:54:37.490232",
+  "elapsed_seconds": 480.255088,
+  "last_heartbeat": "2026-01-23T01:02:37.745331",
+  "pages_requested": null,
+  "error_message": null,
+  "output_files": [
+    "knowledge_base/archive/oe1022d_runs/full_run_20260123_005416/run_20260123_005437/oe1022d-lockin.md",
+    "knowledge_base/archive/oe1022d_runs/full_run_20260123_005416/run_20260123_005437/raw/oe1022d-lockin.json"
+  ]
+}

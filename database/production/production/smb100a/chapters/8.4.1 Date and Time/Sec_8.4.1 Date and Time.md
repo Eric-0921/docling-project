@@ -1,0 +1,7 @@
+# 8.4.1 Date and Time
+The R&S SMB uses an internal real time clock to determine the date and time. It adjusts the time and date to the timezone of your location automatically, by providing a selection list of continents and cities.
+
+The instrument records the time whenever you create or modify files on your instrument or you use timed licences. By default, the instrument is set to the UTC timezone, but you can select the timezone according to your location.
+
+Moreover, the instrument supports NTP protocol for synchronizing all connected instruments and computer systems to minimize time delays in the network.
+

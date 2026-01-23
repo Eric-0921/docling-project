@@ -1,0 +1,13 @@
+# 3.2.2 Rear Panel Tour
+This section gives an overview of connectors on the rear panel of the instrument. Each connector is briefly described and a reference is given to the chapters containing detailed information. For technical data of the connectors refer to the data sheet.
+
+Instrument Tour
+
+Operating Manual 1407.0806.32 ─ 23
+
+54
+
+R&S ® SMB100A
+
+Getting Started
+

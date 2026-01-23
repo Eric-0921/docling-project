@@ -1,0 +1,3 @@
+# [LEVEL]
+Activates level entry.
+

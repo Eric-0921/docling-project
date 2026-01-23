@@ -1,0 +1,3 @@
+# Give me your size or give me nothing...
+your_size = instr.get_file_size(r'/var/appdata/instr_setup.sav')
+```

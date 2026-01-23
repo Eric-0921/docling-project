@@ -1,0 +1,1678 @@
+{
+  "meta": {
+    "name": "demo_remote_control",
+    "origin": "demo_remote_control.pdf"
+  },
+  "structure": [
+    {
+      "title": "6 Remote Control Commands",
+      "level": 1,
+      "type": "section",
+      "text_preview": "6 Remote Control Commands"
+    },
+    {
+      "title": "6.1 Conventions used in SCPI command descriptions",
+      "level": 1,
+      "type": "section",
+      "text_preview": "6.1 Conventions used in SCPI command descriptions"
+    },
+    {
+      "title": "\u25cf Command usage",
+      "level": 1,
+      "type": "section",
+      "text_preview": "\u25cf Command usage"
+    },
+    {
+      "title": "\u25cf Parameter usage",
+      "level": 1,
+      "type": "section",
+      "text_preview": "\u25cf Parameter usage"
+    },
+    {
+      "title": "\u25cf Conformity",
+      "level": 1,
+      "type": "section",
+      "text_preview": "\u25cf Conformity"
+    },
+    {
+      "title": "\u25cf Asynchronous commands",
+      "level": 1,
+      "type": "section",
+      "text_preview": "\u25cf Asynchronous commands"
+    },
+    {
+      "title": "\u25cf Reset values (*RST)",
+      "level": 1,
+      "type": "section",
+      "text_preview": "\u25cf Reset values (*RST)"
+    },
+    {
+      "title": "\u25cf Factory preset values",
+      "level": 1,
+      "type": "section",
+      "text_preview": "\u25cf Factory preset values"
+    },
+    {
+      "title": "\u25cf Default unit",
+      "level": 1,
+      "type": "section",
+      "text_preview": "\u25cf Default unit"
+    },
+    {
+      "title": "\u25cf Manual operation",
+      "level": 1,
+      "type": "section",
+      "text_preview": "\u25cf Manual operation"
+    },
+    {
+      "title": "6.2 Common commands",
+      "level": 1,
+      "type": "section",
+      "text_preview": "6.2 Common commands"
+    },
+    {
+      "title": "*CLS",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*CLS"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*ESE <Value>",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*ESE <Value>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*ESR?",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*ESR?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*IDN?",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*IDN?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*IST?",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*IST?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*OPC",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*OPC"
+    },
+    {
+      "title": "*OPT?",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*OPT?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*PRE <Value>",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*PRE <Value>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*PSC <Action>",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*PSC <Action>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*RCL <Number>",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*RCL <Number>"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "Common commands",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Common commands"
+    },
+    {
+      "title": "Common commands",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Common commands"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*SAV <Number>",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*SAV <Number>"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*SRE <Contents>",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*SRE <Contents>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*STB?",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*STB?"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*TRG",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*TRG"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*TST?",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*TST?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "*WAI",
+      "level": 1,
+      "type": "section",
+      "text_preview": "*WAI"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "6.3 Preset Commands",
+      "level": 1,
+      "type": "section",
+      "text_preview": "6.3 Preset Commands"
+    },
+    {
+      "title": "Four presetting actions are available:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Four presetting actions are available:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DEVice:PRESet",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DEVice:PRESet"
+    },
+    {
+      "title": "Preset Commands",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Preset Commands"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":SOURce<hw>:PRESet",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":SOURce<hw>:PRESet"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":SYSTem:PRESet",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":SYSTem:PRESet"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":SYSTem:FPReset",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":SYSTem:FPReset"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "6.4 CALibration Subsystem",
+      "level": 1,
+      "type": "section",
+      "text_preview": "6.4 CALibration Subsystem"
+    },
+    {
+      "title": "Understanding the query reponse",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Understanding the query reponse"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "type": "group",
+      "children": [
+        {
+          "type": "group",
+          "children": []
+        },
+        {
+          "type": "group",
+          "children": []
+        }
+      ]
+    },
+    {
+      "title": "Suffix <hw>",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Suffix <hw>"
+    },
+    {
+      "title": ":CALibration:ALL[:MEASure]? [<Force>]",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":CALibration:ALL[:MEASure]? [<Force>]"
+    },
+    {
+      "title": "Query parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Query parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":CALibration<hw>:FMOFfset[:MEASure]?",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":CALibration<hw>:FMOFfset[:MEASure]?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":CALibration<hw>:FREQuency[:MEASure]?",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":CALibration<hw>:FREQuency[:MEASure]?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":CALibration<hw>:LEVel[:MEASure]? [<Force>]",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":CALibration<hw>:LEVel[:MEASure]? [<Force>]"
+    },
+    {
+      "title": "Query parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Query parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":CALibration<hw>:LEVel:EXTern:DATA <Data>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":CALibration<hw>:LEVel:EXTern:DATA <Data>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":CALibration:ROSCillator[:DATA] <Data>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":CALibration:ROSCillator[:DATA] <Data>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "[:SOURce]:CALibration:STEReo:ANALog[:MEAS]?",
+      "level": 1,
+      "type": "section",
+      "text_preview": "[:SOURce]:CALibration:STEReo:ANALog[:MEAS]?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "6.5 DIAGnostic Subsystem",
+      "level": 1,
+      "type": "section",
+      "text_preview": "6.5 DIAGnostic Subsystem"
+    },
+    {
+      "title": "DIAGnostic Subsystem",
+      "level": 1,
+      "type": "section",
+      "text_preview": "DIAGnostic Subsystem"
+    },
+    {
+      "title": ":DIAGnostic<hw>:BGINfo? [<Board>]",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DIAGnostic<hw>:BGINfo? [<Board>]"
+    },
+    {
+      "title": "Query parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Query parameters:"
+    },
+    {
+      "type": "section",
+      "children": [
+        {
+          "title": "Queries the configuration of the motherboard.",
+          "level": 1,
+          "type": "section",
+          "text_preview": "Queries the configuration of the motherboard."
+        }
+      ],
+      "title": "Return values:",
+      "level": 1,
+      "text_preview": "Return values:"
+    },
+    {
+      "title": ":DIAGnostic<hw>:BGINfo:CATalog?",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DIAGnostic<hw>:BGINfo:CATalog?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DIAGnostic:INFO:OTIMe?",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DIAGnostic:INFO:OTIMe?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DIAGnostic:INFO:POCount?",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DIAGnostic:INFO:POCount?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "6.6 DISPlay Subsystem",
+      "level": 1,
+      "type": "section",
+      "text_preview": "6.6 DISPlay Subsystem"
+    },
+    {
+      "title": ":DISPlay:ANNotation:AMPLitude <State>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DISPlay:ANNotation:AMPLitude <State>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DISPlay:ANNotation:FREQuency <State>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DISPlay:ANNotation:FREQuency <State>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DISPlay:ANNotation[:ALL] <State>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DISPlay:ANNotation[:ALL] <State>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DISPlay:DIALog:CLOSe <DialogId>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DISPlay:DIALog:CLOSe <DialogId>"
+    },
+    {
+      "title": "Setting parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Setting parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DISPlay:DIALog:CLOSe:ALL",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DISPlay:DIALog:CLOSe:ALL"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DISPlay:DIALog:ID?",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DISPlay:DIALog:ID?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DISPlay:DIALog:OPEN <DialogId>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DISPlay:DIALog:OPEN <DialogId>"
+    },
+    {
+      "title": "Setting parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Setting parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DISPlay:PSAVe:HOLDoff <HoldoffTimeMin>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DISPlay:PSAVe:HOLDoff <HoldoffTimeMin>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DISPlay:PSAVe[:STATe] <State>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DISPlay:PSAVe[:STATe] <State>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":DISPlay:UPDate <Update>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":DISPlay:UPDate <Update>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "6.7 FORMat Subsystem",
+      "level": 1,
+      "type": "section",
+      "text_preview": "6.7 FORMat Subsystem"
+    },
+    {
+      "title": ":FORMat:BORDer <Border>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":FORMat:BORDer <Border>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "section",
+      "children": [],
+      "title": "NORMal",
+      "level": 1,
+      "text_preview": "NORMal"
+    },
+    {
+      "title": "SWAPped",
+      "level": 1,
+      "type": "section",
+      "text_preview": "SWAPped"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":FORMat[:DATA] <Data>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":FORMat[:DATA] <Data>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "section",
+      "children": [
+        {
+          "title": "PACKed",
+          "level": 1,
+          "type": "section",
+          "text_preview": "PACKed"
+        }
+      ],
+      "title": "ASCii",
+      "level": 1,
+      "text_preview": "ASCii"
+    },
+    {
+      "title": ":FORMat:SREGister <Format>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":FORMat:SREGister <Format>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "section",
+      "children": [
+        {
+          "title": "BINary",
+          "level": 1,
+          "type": "section",
+          "text_preview": "BINary"
+        },
+        {
+          "title": "HEXadecimal",
+          "level": 1,
+          "type": "section",
+          "text_preview": "HEXadecimal"
+        },
+        {
+          "title": "OCTal",
+          "level": 1,
+          "type": "section",
+          "text_preview": "OCTal"
+        }
+      ],
+      "title": "ASCii",
+      "level": 1,
+      "text_preview": "ASCii"
+    },
+    {
+      "title": "6.8 HCOPy Subsystem",
+      "level": 1,
+      "type": "section",
+      "text_preview": "6.8 HCOPy Subsystem"
+    },
+    {
+      "title": "Example: Store a hard copy of the display",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Example: Store a hard copy of the display"
+    },
+    {
+      "title": "HCOPy Subsystem",
+      "level": 1,
+      "type": "section",
+      "text_preview": "HCOPy Subsystem"
+    },
+    {
+      "title": ":HCOPy:DATA?",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":HCOPy:DATA?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":HCOPy[:EXECute]",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":HCOPy[:EXECute]"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":HCOPy:FILE[:NAME] <Name>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":HCOPy:FILE[:NAME] <Name>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":HCOPy:FILE[:NAME]:AUTO?",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":HCOPy:FILE[:NAME]:AUTO?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":HCOPy:FILE[:NAME]:AUTO:DIRectory <Directory>",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":HCOPy:FILE[:NAME]:AUTO:DIRectory <Directory>"
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":HCOPy:FILE[:NAME]:AUTO:DIRectory:CLEar",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":HCOPy:FILE[:NAME]:AUTO:DIRectory:CLEar"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":HCOPy:FILE[:NAME]:AUTO:FILE?",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":HCOPy:FILE[:NAME]:AUTO:FILE?"
+    },
+    {
+      "title": "Return values:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Return values:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": "Parameters:",
+      "level": 1,
+      "type": "section",
+      "text_preview": "Parameters:"
+    },
+    {
+      "type": "group",
+      "children": []
+    },
+    {
+      "title": ":HCOPy:FILE[:NAME]:AUTO[:FILE]:NUMBer?",
+      "level": 1,
+      "type": "section",
+      "text_preview": ":HCOPy:FILE[:NAME]:AUTO[:FILE]:NUMBer?"
+    }
+  ],
+  "scpi_index": {
+    "Return": {
+      "full_text": "Return values:",
+      "prov": {
+        "page_no": 20,
+        "bbox": {
+          "l": 147.402,
+          "t": 512.5060005078125,
+          "r": 219.642,
+          "b": 501.3460005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          14
+        ]
+      }
+    },
+    "Common": {
+      "full_text": "Common commands",
+      "prov": {
+        "page_no": 5,
+        "bbox": {
+          "l": 434.99,
+          "t": 780.1470005078125,
+          "r": 527.23,
+          "b": 768.9870005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          15
+        ]
+      }
+    },
+    "Four": {
+      "full_text": "Four presetting actions are available:",
+      "prov": {
+        "page_no": 6,
+        "bbox": {
+          "l": 147.399,
+          "t": 324.64700050781244,
+          "r": 311.359,
+          "b": 313.4870005078126,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          38
+        ]
+      }
+    },
+    ":DEVice:PRESet": {
+      "full_text": ":DEVice:PRESet",
+      "prov": {
+        "page_no": 6,
+        "bbox": {
+          "l": 147.399,
+          "t": 155.3130005078125,
+          "r": 224.459,
+          "b": 144.15300050781252,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          14
+        ]
+      }
+    },
+    "Preset": {
+      "full_text": "Preset Commands",
+      "prov": {
+        "page_no": 7,
+        "bbox": {
+          "l": 444.44,
+          "t": 780.1470005078125,
+          "r": 527.24,
+          "b": 768.9870005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          15
+        ]
+      }
+    },
+    ":SOURce<hw>:PRESet": {
+      "full_text": ":SOURce<hw>:PRESet",
+      "prov": {
+        "page_no": 7,
+        "bbox": {
+          "l": 147.402,
+          "t": 672.5790005078125,
+          "r": 255.762,
+          "b": 661.4190005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          18
+        ]
+      }
+    },
+    ":SYSTem:PRESet": {
+      "full_text": ":SYSTem:PRESet",
+      "prov": {
+        "page_no": 7,
+        "bbox": {
+          "l": 147.402,
+          "t": 544.4400005078126,
+          "r": 230.012,
+          "b": 533.2800005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          14
+        ]
+      }
+    },
+    ":SYSTem:FPReset": {
+      "full_text": ":SYSTem:FPReset",
+      "prov": {
+        "page_no": 7,
+        "bbox": {
+          "l": 147.402,
+          "t": 346.1210005078125,
+          "r": 233.902,
+          "b": 334.9610005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          15
+        ]
+      }
+    },
+    "Understanding": {
+      "full_text": "Understanding the query reponse",
+      "prov": {
+        "page_no": 8,
+        "bbox": {
+          "l": 147.404,
+          "t": 505.8940005078125,
+          "r": 307.434,
+          "b": 494.7340005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          31
+        ]
+      }
+    },
+    "Suffix": {
+      "full_text": "Suffix <hw>",
+      "prov": {
+        "page_no": 8,
+        "bbox": {
+          "l": 147.404,
+          "t": 446.5860005078125,
+          "r": 203.534,
+          "b": 435.4260005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          11
+        ]
+      }
+    },
+    "Query": {
+      "full_text": "Query parameters:",
+      "prov": {
+        "page_no": 11,
+        "bbox": {
+          "l": 147.4,
+          "t": 510.7640005078125,
+          "r": 239.1,
+          "b": 499.6040005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          17
+        ]
+      }
+    },
+    ":CALibration<hw>:LEVel:EXTern:DATA": {
+      "full_text": ":CALibration<hw>:LEVel:EXTern:DATA <Data>",
+      "prov": {
+        "page_no": 10,
+        "bbox": {
+          "l": 147.402,
+          "t": 736.4460005078125,
+          "r": 366.872,
+          "b": 725.2860005078124,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          41
+        ]
+      }
+    },
+    "DIAGnostic": {
+      "full_text": "DIAGnostic Subsystem",
+      "prov": {
+        "page_no": 11,
+        "bbox": {
+          "l": 424.43,
+          "t": 780.1470005078125,
+          "r": 527.24,
+          "b": 768.9870005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          20
+        ]
+      }
+    },
+    ":DIAGnostic<hw>:BGINfo?": {
+      "full_text": ":DIAGnostic<hw>:BGINfo? [<Board>]",
+      "prov": {
+        "page_no": 11,
+        "bbox": {
+          "l": 147.4,
+          "t": 639.1920005078125,
+          "r": 321.32,
+          "b": 628.0320005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          33
+        ]
+      }
+    },
+    "Queries": {
+      "full_text": "Queries the configuration of the motherboard.",
+      "prov": {
+        "page_no": 11,
+        "bbox": {
+          "l": 246.612,
+          "t": 354.4490005078125,
+          "r": 448.382,
+          "b": 343.2890005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          45
+        ]
+      }
+    },
+    ":DIAGnostic<hw>:BGINfo:CATalog?": {
+      "full_text": ":DIAGnostic<hw>:BGINfo:CATalog?",
+      "prov": {
+        "page_no": 11,
+        "bbox": {
+          "l": 147.402,
+          "t": 239.89100050781246,
+          "r": 317.582,
+          "b": 228.7310005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          31
+        ]
+      }
+    },
+    ":DIAGnostic:INFO:OTIMe?": {
+      "full_text": ":DIAGnostic:INFO:OTIMe?",
+      "prov": {
+        "page_no": 12,
+        "bbox": {
+          "l": 147.402,
+          "t": 704.4900005078125,
+          "r": 272.402,
+          "b": 693.3300005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          23
+        ]
+      }
+    },
+    ":DIAGnostic:INFO:POCount?": {
+      "full_text": ":DIAGnostic:INFO:POCount?",
+      "prov": {
+        "page_no": 12,
+        "bbox": {
+          "l": 147.402,
+          "t": 519.6870005078125,
+          "r": 285.172,
+          "b": 508.5270005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          25
+        ]
+      }
+    },
+    ":DISPlay:ANNotation:AMPLitude": {
+      "full_text": ":DISPlay:ANNotation:AMPLitude <State>",
+      "prov": {
+        "page_no": 13,
+        "bbox": {
+          "l": 147.402,
+          "t": 736.4460005078125,
+          "r": 339.652,
+          "b": 725.2860005078124,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          37
+        ]
+      }
+    },
+    ":DISPlay:ANNotation:FREQuency": {
+      "full_text": ":DISPlay:ANNotation:FREQuency <State>",
+      "prov": {
+        "page_no": 13,
+        "bbox": {
+          "l": 147.402,
+          "t": 580.3550005078125,
+          "r": 344.112,
+          "b": 569.1950005078126,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          37
+        ]
+      }
+    },
+    ":DISPlay:DIALog:CLOSe": {
+      "full_text": ":DISPlay:DIALog:CLOSe <DialogId>",
+      "prov": {
+        "page_no": 13,
+        "bbox": {
+          "l": 147.402,
+          "t": 274.5720005078125,
+          "r": 314.662,
+          "b": 263.41200050781254,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          32
+        ]
+      }
+    },
+    "Setting": {
+      "full_text": "Setting parameters:",
+      "prov": {
+        "page_no": 14,
+        "bbox": {
+          "l": 147.402,
+          "t": 421.9640005078125,
+          "r": 244.092,
+          "b": 410.8040005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          19
+        ]
+      }
+    },
+    ":DISPlay:DIALog:CLOSe:ALL": {
+      "full_text": ":DISPlay:DIALog:CLOSe:ALL",
+      "prov": {
+        "page_no": 14,
+        "bbox": {
+          "l": 147.402,
+          "t": 736.4460005078125,
+          "r": 286.292,
+          "b": 725.2860005078124,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          25
+        ]
+      }
+    },
+    ":DISPlay:DIALog:ID?": {
+      "full_text": ":DISPlay:DIALog:ID?",
+      "prov": {
+        "page_no": 14,
+        "bbox": {
+          "l": 147.402,
+          "t": 640.9790005078125,
+          "r": 246.292,
+          "b": 629.8190005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          19
+        ]
+      }
+    },
+    ":DISPlay:DIALog:OPEN": {
+      "full_text": ":DISPlay:DIALog:OPEN <DialogId>",
+      "prov": {
+        "page_no": 14,
+        "bbox": {
+          "l": 147.402,
+          "t": 474.5720005078125,
+          "r": 309.662,
+          "b": 463.4120005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          31
+        ]
+      }
+    },
+    ":DISPlay:PSAVe:HOLDoff": {
+      "full_text": ":DISPlay:PSAVe:HOLDoff <HoldoffTimeMin>",
+      "prov": {
+        "page_no": 14,
+        "bbox": {
+          "l": 147.402,
+          "t": 320.16200050781254,
+          "r": 351.152,
+          "b": 309.00200050781245,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          39
+        ]
+      }
+    },
+    ":DISPlay:UPDate": {
+      "full_text": ":DISPlay:UPDate <Update>",
+      "prov": {
+        "page_no": 15,
+        "bbox": {
+          "l": 147.402,
+          "t": 547.3720005078125,
+          "r": 273.572,
+          "b": 536.2120005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          24
+        ]
+      }
+    },
+    ":FORMat:BORDer": {
+      "full_text": ":FORMat:BORDer <Border>",
+      "prov": {
+        "page_no": 15,
+        "bbox": {
+          "l": 147.399,
+          "t": 243.84000050781253,
+          "r": 275.759,
+          "b": 232.68000050781257,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          23
+        ]
+      }
+    },
+    "NORMal": {
+      "full_text": "NORMal",
+      "prov": {
+        "page_no": 15,
+        "bbox": {
+          "l": 246.612,
+          "t": 164.0380005078125,
+          "r": 285.502,
+          "b": 152.87800050781243,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          6
+        ]
+      }
+    },
+    "SWAPped": {
+      "full_text": "SWAPped",
+      "prov": {
+        "page_no": 16,
+        "bbox": {
+          "l": 246.614,
+          "t": 742.4680005078125,
+          "r": 293.844,
+          "b": 731.3080005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          7
+        ]
+      }
+    },
+    "ASCii": {
+      "full_text": "ASCii",
+      "prov": {
+        "page_no": 16,
+        "bbox": {
+          "l": 246.614,
+          "t": 267.36800050781244,
+          "r": 273.284,
+          "b": 256.2080005078126,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          5
+        ]
+      }
+    },
+    "PACKed": {
+      "full_text": "PACKed",
+      "prov": {
+        "page_no": 16,
+        "bbox": {
+          "l": 246.614,
+          "t": 484.0390005078125,
+          "r": 285.874,
+          "b": 472.8790005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          6
+        ]
+      }
+    },
+    ":FORMat:SREGister": {
+      "full_text": ":FORMat:SREGister <Format>",
+      "prov": {
+        "page_no": 16,
+        "bbox": {
+          "l": 147.402,
+          "t": 347.1700005078125,
+          "r": 287.982,
+          "b": 336.0100005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          26
+        ]
+      }
+    },
+    "BINary": {
+      "full_text": "BINary",
+      "prov": {
+        "page_no": 16,
+        "bbox": {
+          "l": 246.614,
+          "t": 238.65700050781254,
+          "r": 278.844,
+          "b": 227.49700050781257,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          6
+        ]
+      }
+    },
+    "HEXadecimal": {
+      "full_text": "HEXadecimal",
+      "prov": {
+        "page_no": 16,
+        "bbox": {
+          "l": 246.614,
+          "t": 197.18900050781247,
+          "r": 309.974,
+          "b": 186.0290005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          11
+        ]
+      }
+    },
+    "OCTal": {
+      "full_text": "OCTal",
+      "prov": {
+        "page_no": 16,
+        "bbox": {
+          "l": 246.614,
+          "t": 155.7210005078125,
+          "r": 275.324,
+          "b": 144.56100050781254,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          5
+        ]
+      }
+    },
+    "HCOPy": {
+      "full_text": "HCOPy Subsystem",
+      "prov": {
+        "page_no": 18,
+        "bbox": {
+          "l": 441.11,
+          "t": 780.1470005078125,
+          "r": 527.24,
+          "b": 768.9870005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          15
+        ]
+      }
+    },
+    ":HCOPy:DATA?": {
+      "full_text": ":HCOPy:DATA?",
+      "prov": {
+        "page_no": 18,
+        "bbox": {
+          "l": 147.403,
+          "t": 410.7960005078125,
+          "r": 220.913,
+          "b": 399.6360005078125,
+          "coord_origin": "BOTTOMLEFT"
+        },
+        "charspan": [
+          0,
+          12
+        ]
+      }
+    }
+  }
+}

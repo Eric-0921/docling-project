@@ -1,0 +1,37 @@
+# 4.2.8 Storing and Loading Instrument Data - File Key
+The R&S SMB allows complete instrument settings to be saved in files either on the internal flash memory or on external USB memory devices.
+
+Defined and complex instrument settings can then be reproduced at any time by loading this data. If required, these settings can be loaded to various signal generators.
+
+The corresponding menu is available under "Save/Recall" in the "Setup" menu. The instrument settings are saved in files which can be saved in data directories.
+
+Additionally there are intermediate memories in which the current instrument setting can be saved and then called up again by just pressing a key. This provides fast switching between different instrument settings.
+
+Only settings which differ from the preset values and configuration data for the operating elements (e.g. window positions) are saved. As a result the files remain relatively small. Furthermore, instrument settings can easily be transferred between different equipped signal generators since the files contain only relevant information. When loaded, the referenced settings are implemented and all non-referenced parameters are set to the associated preset values.
+
+If list data is part of the instrument settings, e.g. a list of user correction data, a reference to this list is saved, not the list itself. The list is reactivated when the associated settings are loaded, but the list may have been modified or deleted in the meantime or may not be available on a different instrument. If the list has been modified, the new entries will be used. An error message appears if an attempt is made to access a nonexisting list or to activate settings which are not supported by the instrument.
+
+Operating Manual 1407.0806.32 ─ 23
+
+127
+
+R&S ® SMB100A
+
+Instrument Function
+
+General Instrument Settings
+
+![Picture](#/pictures/160)
+
+Network settings and remote settings are not saved and restored.
+
+Lists are saved and loaded in the appropriate menus. For example, the user correction data list is created and saved in the "User Correction" menu.
+
+When loading an instrument setting, it is possible to select whether the current frequency and level setting is to be retained or whether the saved settings are to be activated. It is possible to delete saved instrument settings. A file can be copied by loading it with "Recall" and then storing it under a new name.
+
+Settings can be transferred easily between instruments with different equipment options and/or firmware versions because only the settings which differ from the preset values are affected. When settings are loaded, only those which are possible on the instrument are implemented. Error messages indicate the settings which cannot be implemented.
+
+The saved file is transferred from one instrument to another using the memory stick.
+
+General file management functions such as copying and moving data are available in the "File Manager" dialog.
+

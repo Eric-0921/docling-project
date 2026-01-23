@@ -1,0 +1,5 @@
+# 8.1 Cleaning
+How to clean the product is described in "Cleaning the product" on page 15.
+
+Do not use any liquids for cleaning. Cleaning agents, solvents (thinners, acetone), acids and bases can damage the front panel labeling, plastic parts and display.
+

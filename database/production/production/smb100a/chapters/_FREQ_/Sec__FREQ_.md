@@ -1,0 +1,3 @@
+# [FREQ]
+Activates frequency entry.
+
