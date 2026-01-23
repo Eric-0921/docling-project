@@ -35,3 +35,20 @@ inst.write(':FREQ 100MHz')
 # Check Errors
 print(inst.query('SYST:ERR?'))
 ```
+
+## Engineering Discipline
+1. **Communication**: AI MUST plan and respond in Chinese. Comments in code MUST be Chinese.
+2. **File Safety**: 
+   - File paths MUST be English/ASCII only.
+   - NO output files in `docs/` or root.
+3. **Documentation**:
+   - `CHANGELOG.md` MUST be updated for every meaningful change.
+   - `README.md` MUST reflect the current project state.
+4. **Robustness**:
+   - Long-running tasks (>5min) MUST follow `rules/engineering_discipline.md`.
+   - ALWAYS implement checkpointing and logging for batch processing.
+
+## Active Agent Rules (Documentation Activation)
+- **Project Structure**: Follow `.agent/rules/project_structure.md` for directory layout and naming.
+- **Git Conventions**: Follow `.agent/rules/git_convention.md` for branching and commits.
+- **Workflows**: Check `.agent/workflows/` for common tasks (e.g. Tmux, Git).
