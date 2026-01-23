@@ -32,6 +32,10 @@
   - 实现了基于 KV Cache 和 JSON Mode 的稳健翻译 Agent。
   - 增加了 SCPI 指令保护 (`SCPIGuard`)。
 
+- **生产环境部署 (Production Deployment)**:
+  - 将 AI 优化后的 SMB100A 中文手册 (`SMB100A_OperatingManual_cn_ai_tables.md`) 正式部署至 `database/production/i18n/zh-cn/v1.0_20260123/`，替换了旧版文件。
+  - 该版本修复了 95% 以上的表格排版问题，并应用了最新的视觉优化规则。
+
 ## [0.2.0] - 2026-01-22
 
 ### ✨ 新增特性 (Features)
