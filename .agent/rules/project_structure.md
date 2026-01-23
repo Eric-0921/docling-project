@@ -34,4 +34,5 @@ project-root/
 
 - **Path Names**: MUST be English/ASCII only. No Chinese characters in filenames.
 - **Production Data**: `database/production/` contains verified knowledge. Do not modify manually without caution.
-- **Experimental Data**: Output heavy logs or raw data to `experimental_data/` to avoid polluting git.
+- **Experimental Data**: Output limited to `experimental_data/`.
+  - **Rule**: Any new data directory created MUST be verified against `.gitignore` first. Do not commit large logs (>10MB).

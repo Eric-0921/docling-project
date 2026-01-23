@@ -27,7 +27,18 @@ description: when writing code to control R&S SMB100A signal generator or OE1022
 ## 代码规范
 
 - Python: `pyvisa` + `pyserial`
-- 实现 try-except 处理 VISA 超时和资源错误
+- **Error Protocol**: 必须实现以下错误检查函数，并在关键指令后调用：
+  ```python
+  def check_inst_errors(inst):
+      # 必须循环读取直到错误队列为空
+      errors = []
+      while True:
+          err = inst.query('SYST:ERR?')
+          code = int(err.split(',')[0])
+          if code == 0: break
+          errors.append(err)
+      if errors: raise RuntimeError(f"SCPI Errors: {errors}")
+  ```
 - 变量名/注释中标注单位 (Hz, dBm, V)
 
 ## 示例模式
